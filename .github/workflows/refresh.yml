@@ -1,0 +1,38 @@
+name: Refresh schedule
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 所有数据源都不需要 token。下面两个是可选的：不配就用 config.mjs 里的默认值。
+      # 如果某个源在境外 IP 下失败，脚本会保留上一次的数据，不会让页面变空。
+      - name: Fetch schedule
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+          HAOJIAO_SECRET: ${{ secrets.HAOJIAO_SECRET }}
+        run: node scripts/fetch.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --quiet --cached; then
+            echo "数据无变化"
+          else
+            git commit -m "chore: refresh schedule data"
+            git push
+          fi

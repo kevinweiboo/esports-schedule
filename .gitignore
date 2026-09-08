@@ -1,0 +1,8 @@
+.env.local
+node_modules/
+*.log
+.ref/
+.workbuddy/
+
+# 某些显卡程序会在当前目录丢日志，跟项目无关
+NVIDIA Corporation/
