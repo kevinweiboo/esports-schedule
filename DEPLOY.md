@@ -20,20 +20,29 @@
 
 ### 第 2 步：把本地项目推上去
 
-在项目目录执行（把 `<用户名>` 和 `<仓库名>` 换成你自己的）：
+**本地仓库已经建好了**（`git init` + 首次提交已完成，`main` 分支）。你只需要双击项目里的 **`发布到GitHub.bat`**：
+
+1. 弹出窗口按回车 → 浏览器打开 → 输入一次性代码 → 点 Authorize
+2. 脚本自动建仓库、推送、开启 Pages
+3. 结尾会打印访问地址
+
+想手动做也可以，在项目目录执行（把 `<用户名>` 和 `<仓库名>` 换成你自己的）：
 
 ```bash
 cd "D:/科研/草稿/赛事网站"
 
-git init
-git add .
-git commit -m "feat: 综合赛事时间表"
-git branch -M main
+gh auth login -h github.com -p https -w     # 浏览器授权，不需要密码
+gh repo create esports-schedule --public --source=. --push
+```
+
+或者不用 gh：
+
+```bash
 git remote add origin https://github.com/<用户名>/<仓库名>.git
 git push -u origin main
 ```
 
-第一次推送会弹窗让你登录 GitHub。
+> 不需要把 GitHub 账号密码交给任何人。`gh auth login` 走的是浏览器 OAuth，凭证只存在你自己电脑里。
 
 ### 第 3 步：开启 GitHub Pages
 
