@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-09T00:29:44.930Z",
+    "generatedAt": "2026-09-09T05:07:40.016Z",
     "total": 156,
     "byGame": {
       "valorant": 2,
@@ -4632,23 +4632,6 @@
           "status": "completed"
         },
         {
-          "id": "cs2m-csgo_mc_2397603",
-          "time": "2026-09-09T03:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 首轮",
-          "t1": {
-            "name": "5star",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6t09jsconkpudhr3oqg.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "Mongolz",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cotdagsconklgsjvhg10.png",
-            "score": "0"
-          },
-          "status": "upcoming"
-        },
-        {
           "id": "cs2m-csgo_mc_2397607",
           "time": "2026-09-09T03:00:00.000Z",
           "bo": 3,
@@ -4656,14 +4639,31 @@
           "t1": {
             "name": "magic",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/daaj9hsconkpudhr5c80.png",
-            "score": "0"
+            "score": "1"
           },
           "t2": {
             "name": "FaZe",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_d818n3cconkpudhr4jmg.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "live"
+        },
+        {
+          "id": "cs2m-csgo_mc_2397603",
+          "time": "2026-09-09T03:20:00.000Z",
+          "bo": 3,
+          "stage": "小组赛 败者组 首轮",
+          "t1": {
+            "name": "5star",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6t09jsconkpudhr3oqg.png",
+            "score": "1"
+          },
+          "t2": {
+            "name": "Mongolz",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cotdagsconklgsjvhg10.png",
+            "score": "0"
+          },
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2397604",
