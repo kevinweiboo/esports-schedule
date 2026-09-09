@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-09T10:02:04.270Z",
+    "generatedAt": "2026-09-09T14:45:36.213Z",
     "total": 156,
     "byGame": {
       "valorant": 2,
@@ -4712,9 +4712,9 @@
           "t2": {
             "name": "G2",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
-            "score": "0"
+            "score": "2"
           },
-          "status": "live"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2397609",
@@ -4724,35 +4724,35 @@
           "t1": {
             "name": "TYLOO",
             "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pjf4nfq43340up40.png",
-            "score": "0"
+            "score": "2"
           },
           "t2": {
             "name": "GL",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d7ldoasconkpudhr4da0.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2397606",
-          "time": "2026-09-09T12:00:00.000Z",
+          "time": "2026-09-09T11:55:00.000Z",
           "bo": 3,
           "stage": "小组赛 胜者组 半决赛",
           "t1": {
             "name": "BB",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cq37mkkconkotam7vj7g.png",
-            "score": "0"
+            "score": "2"
           },
           "t2": {
             "name": "Astralis",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ch9oh3n4nfqe2nie4t10.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2397610",
-          "time": "2026-09-09T12:00:00.000Z",
+          "time": "2026-09-09T12:55:00.000Z",
           "bo": 3,
           "stage": "小组赛 胜者组 半决赛",
           "t1": {
@@ -4763,9 +4763,9 @@
           "t2": {
             "name": "FURIA",
             "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2397611",
@@ -4778,8 +4778,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "G2",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
             "score": "0"
           },
           "status": "upcoming"
@@ -4795,8 +4795,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "TYLOO",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pjf4nfq43340up40.png",
             "score": "0"
           },
           "status": "upcoming"
@@ -4824,13 +4824,13 @@
           "bo": 3,
           "stage": "小组赛 败者组 半决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "Astralis",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ch9oh3n4nfqe2nie4t10.png",
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "5star",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6t09jsconkpudhr3oqg.png",
             "score": "0"
           },
           "status": "upcoming"
@@ -4846,8 +4846,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "BB",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cq37mkkconkotam7vj7g.png",
             "score": "0"
           },
           "status": "upcoming"
