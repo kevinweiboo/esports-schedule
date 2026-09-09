@@ -56,6 +56,36 @@ export async function postJson(url, body, { headers = {}, timeout = 25000, retri
   throw lastErr;
 }
 
+// POST JSON，但把响应当纯文本返回（给加密接口用：号角的比赛接口返回的是密文，不是 JSON）
+export async function postText(url, body, { headers = {}, timeout = 25000, retries = 2 } = {}) {
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeout);
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'User-Agent': UA,
+          'Content-Type': 'application/json',
+          Accept: 'application/json, text/plain, */*',
+          ...headers
+        },
+        body: JSON.stringify(body),
+        signal: ctrl.signal
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      return await res.text();
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries) await sleep(600 * (attempt + 1));
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw lastErr;
+}
+
 // 时间窗口边界，返回 ISO 字符串
 export function windowBounds({ pastDays, futureDays }) {
   const now = Date.now();

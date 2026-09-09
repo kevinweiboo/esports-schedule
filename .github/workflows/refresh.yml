@@ -2,8 +2,16 @@ name: Refresh schedule
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    # 每 3 小时整点跑一次。
+    # 别写 */30：GitHub 对高频计划任务会排队/跳过，实测实际间隔会漂到 2~5 小时，
+    # 频率写低一点反而执行得更稳定。
+    - cron: '0 */3 * * *'
   workflow_dispatch:
+
+# 同一时间只允许一个刷新任务在跑，避免上一次还没结束又触发一次导致互相覆盖
+concurrency:
+  group: refresh-schedule
+  cancel-in-progress: false
 
 jobs:
   refresh:

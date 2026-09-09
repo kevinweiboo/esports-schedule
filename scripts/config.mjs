@@ -20,10 +20,12 @@ export const CS_GRADE_LABEL = { '1': 'Major', '7': 'S+', '2': 'S级' };
 
 // ---------- 瓦洛兰特（数据源：号角）----------
 // https://web.haojiao.cc/wiki/wiki_home/t2Ud5pOQlscKLbRC
-// 只保留 VCT（冠军巡回赛）下的：CN 联赛、大师赛、全球冠军赛
+// 只保留 VCT（冠军巡回赛）。下面四行依次是：CN 联赛、国际联赛、大师赛、全球冠军赛。
+// 只想看 CN 的话，把「太平洋|美洲|EMEA 联赛」那一行注释掉即可。
 export const VAL_SERIES_NAME = '冠军巡回赛';
 export const VAL_GROUP_PATTERNS = [
   { re: /^CN联赛/, tier: 'regional', label: 'VCT CN' },
+  { re: /^(太平洋|美洲|EMEA)联赛/, tier: 'international', label: 'VCT 国际' },
   { re: /大师赛/, tier: 'international', label: '大师赛' },
   { re: /全球冠军赛/, tier: 'international', label: '冠军赛' }
 ];
@@ -43,3 +45,7 @@ export const RIOT_API_KEY = process.env.RIOT_API_KEY || '0TvQnueqKa5mxJntVWt0w4L
 export const HAOJIAO_SECRET = process.env.HAOJIAO_SECRET || 'N61P#=Pf$yz=fwFZa)U8';
 export const HAOJIAO_VERSION = '1.52.159';
 export const HAOJIAO_GAME_ID = 't2Ud5pOQlscKLbRC';
+// 号角的「比赛级」接口（list_index / match_calendar）响应是 AES 加密过的 base64。
+// 密钥和 IV 是同一个 24 字节字符串，明文写在它前端 bundle 里
+// （web.haojiao.cc/js/app.*.js 搜 CryptoJS.AES.decrypt 就能看到）。24 字节 → AES-192。
+export const HAOJIAO_AES_KEY = 'B-:9bzB8K%~q{Au?^>Pfl*)k';

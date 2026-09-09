@@ -56,17 +56,17 @@ node scripts/fetch.mjs              # 只抓取数据，不起服务
 
 默认是手动更新。如果想让它自己跑：
 
-- **Windows 计划任务**（每 30 分钟，需电脑开着）：`.\install-task.ps1`
-- **GitHub Actions**（`.github/workflows/refresh.yml`，全天有效）：改 cron 后推送即可
+- **GitHub Actions**（`.github/workflows/refresh.yml`，全天有效，推荐）：默认每 3 小时一次。
+  注意别把 cron 写得过密——GitHub 对高频计划任务会排队/跳过，写 `*/30` 实测会漂到 2~5 小时才跑一次。
+- **Windows 计划任务**：需要电脑一直开着，本项目已不再提供安装脚本（本地服务现在是打开网页才启动、关掉网页就退出，配合计划任务意义不大）。
 
 ## 目录说明
 
 ```
 index.html              单文件页面（内联 CSS + JS，零构建）
-data/schedule.json      抓取结果，供其他程序复用
-data/schedule.js        同样数据的 JS 包装，供页面 file:// 直接加载
+data/schedule.js        抓取结果，页面唯一读取的数据文件（http / file:// 通用）
 data/meta.json          更新时间、各数据源状态
-scripts/fetch.mjs       主抓取入口
+scripts/fetch.mjs       主抓取入口（加 --json 可额外导出 schedule.json 给其它程序用）
 scripts/config.mjs      关注范围配置
 scripts/normalize.mjs   统一 schema 与分类
 scripts/serve.mjs       零依赖本地服务 + /api/refresh

@@ -1,6 +1,8 @@
 // 主抓取入口
 //   node scripts/fetch.mjs            抓取并写入 data/
 //   node scripts/fetch.mjs --dry-run  只打印，不写文件
+//   node scripts/fetch.mjs --json     额外输出 data/schedule.json（给其它程序复用，
+//                                     默认不写：网页只读 schedule.js，多一份会白白翻倍体积）
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -16,23 +18,31 @@ import { normalize } from './normalize.mjs';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_DIR = path.join(ROOT, 'data');
 const DRY = process.argv.includes('--dry-run');
+const WRITE_JSON = process.argv.includes('--json') || process.env.WRITE_JSON === '1';
 
 const SOURCES = [
   { key: 'lol', label: '英雄联盟 LPL/LCK', game: 'lol', run: () => fetchLol() },
-  { key: 'valorant', label: '瓦洛兰特 VCT CN', game: 'valorant', run: () => fetchValorant() },
+  { key: 'valorant', label: '瓦洛兰特 VCT', game: 'valorant', run: () => fetchValorant() },
   { key: 'cs2', label: 'CS2 S级/S+/Major', game: 'cs2', run: () => fetchCs2() },
   { key: 'f1', label: 'F1', game: 'f1', run: () => fetchF1() }
 ];
 
+// 上次的数据兜底：某个源这次挂了时，用它上一轮留下的结果顶上，避免页面整块变空。
+// 从 schedule.js 读（剥掉 `window.__SCHEDULE__ = ` 前缀），这样仓库里不用再存一份 schedule.json。
 async function previousEvents() {
-  const file = path.join(DATA_DIR, 'schedule.json');
-  if (!existsSync(file)) return [];
-  try {
-    const parsed = JSON.parse(await readFile(file, 'utf8'));
-    return Array.isArray(parsed?.events) ? parsed.events : [];
-  } catch {
-    return [];
+  for (const name of ['schedule.js', 'schedule.json']) {
+    const file = path.join(DATA_DIR, name);
+    if (!existsSync(file)) continue;
+    try {
+      let text = await readFile(file, 'utf8');
+      text = text.trim().replace(/^window\.__SCHEDULE__\s*=\s*/, '').replace(/;+\s*$/, '');
+      const parsed = JSON.parse(text);
+      if (Array.isArray(parsed?.events)) return parsed.events;
+    } catch {
+      // 文件坏了就当没有，继续尝试下一个
+    }
   }
+  return [];
 }
 
 console.log(`开始抓取 ${new Date().toISOString()}`);
@@ -83,7 +93,7 @@ if (DRY) {
 }
 
 await mkdir(DATA_DIR, { recursive: true });
-await writeFile(path.join(DATA_DIR, 'schedule.json'), JSON.stringify({ meta, events }, null, 2), 'utf8');
+// 网页唯一读取的文件：http 与 file:// 都能用 <script src> 载入，不需要后端
 await writeFile(
   path.join(DATA_DIR, 'schedule.js'),
   `window.__SCHEDULE__ = ${JSON.stringify({ meta, events })};\n`,
@@ -91,4 +101,9 @@ await writeFile(
 );
 await writeFile(path.join(DATA_DIR, 'meta.json'), JSON.stringify(meta, null, 2), 'utf8');
 
-console.log('已写入 data/schedule.json、data/schedule.js、data/meta.json');
+let msg = '已写入 data/schedule.js、data/meta.json';
+if (WRITE_JSON) {
+  await writeFile(path.join(DATA_DIR, 'schedule.json'), JSON.stringify({ meta, events }, null, 2), 'utf8');
+  msg += '、data/schedule.json';
+}
+console.log(msg);
