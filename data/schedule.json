@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-10T06:27:50.127Z",
+    "generatedAt": "2026-09-10T11:43:56.331Z",
     "total": 156,
     "byGame": {
       "valorant": 2,
@@ -4797,9 +4797,9 @@
           "t2": {
             "name": "G2",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
-            "score": "1"
+            "score": "2"
           },
-          "status": "live"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2397616",
@@ -4809,35 +4809,52 @@
           "t1": {
             "name": "magic",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/daaj9hsconkpudhr5c80.png",
-            "score": "0"
+            "score": "2"
           },
           "t2": {
             "name": "PARIVISION",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_clr6upsconkqks63ctn0.png",
             "score": "0"
           },
-          "status": "live"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2397612",
-          "time": "2026-09-10T07:00:00.000Z",
+          "time": "2026-09-10T07:25:00.000Z",
           "bo": 3,
           "stage": "小组赛 败者组 半决赛",
           "t1": {
             "name": "Astralis",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ch9oh3n4nfqe2nie4t10.png",
-            "score": "0"
+            "score": "1"
           },
           "t2": {
             "name": "5star",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6t09jsconkpudhr3oqg.png",
+            "score": "2"
+          },
+          "status": "completed"
+        },
+        {
+          "id": "cs2m-csgo_mc_2397617",
+          "time": "2026-09-10T09:10:00.000Z",
+          "bo": 3,
+          "stage": "小组赛 胜者组 决赛",
+          "t1": {
+            "name": "Legacy",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
+            "score": "2"
+          },
+          "t2": {
+            "name": "FURIA",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2397613",
-          "time": "2026-09-10T09:00:00.000Z",
+          "time": "2026-09-10T10:40:00.000Z",
           "bo": 3,
           "stage": "小组赛 胜者组 决赛",
           "t1": {
@@ -4848,47 +4865,13 @@
           "t2": {
             "name": "BB",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cq37mkkconkotam7vj7g.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
-        },
-        {
-          "id": "cs2m-csgo_mc_2397617",
-          "time": "2026-09-10T09:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 胜者组 决赛",
-          "t1": {
-            "name": "Legacy",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "FURIA",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "0"
-          },
-          "status": "upcoming"
-        },
-        {
-          "id": "cs2m-csgo_mc_2397614",
-          "time": "2026-09-10T12:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 决赛",
-          "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
-            "score": "0"
-          },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2397618",
-          "time": "2026-09-10T12:00:00.000Z",
+          "time": "2026-09-10T12:10:00.000Z",
           "bo": 3,
           "stage": "小组赛 败者组 决赛",
           "t1": {
@@ -4897,8 +4880,25 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "magic",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/daaj9hsconkpudhr5c80.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2397614",
+          "time": "2026-09-10T13:00:00.000Z",
+          "bo": 3,
+          "stage": "小组赛 败者组 决赛",
+          "t1": {
+            "name": "G2",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "5star",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6t09jsconkpudhr3oqg.png",
             "score": "0"
           },
           "status": "upcoming"
@@ -4909,8 +4909,8 @@
           "bo": 3,
           "stage": "淘汰赛 1/4决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "FURIA",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
             "score": "0"
           },
           "t2": {
@@ -4960,8 +4960,8 @@
           "bo": 3,
           "stage": "淘汰赛 半决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "Legacy",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
             "score": "0"
           },
           "t2": {
