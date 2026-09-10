@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-10T01:23:10.234Z",
+    "generatedAt": "2026-09-10T06:27:50.127Z",
     "total": 156,
     "byGame": {
       "valorant": 2,
@@ -4768,38 +4768,38 @@
           "status": "completed"
         },
         {
-          "id": "cs2m-csgo_mc_2397611",
-          "time": "2026-09-10T03:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 半决赛",
-          "t1": {
-            "name": "9z",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/co12ihcconklgsjvgua0.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "G2",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
-            "score": "0"
-          },
-          "status": "upcoming"
-        },
-        {
           "id": "cs2m-csgo_mc_2397615",
-          "time": "2026-09-10T03:00:00.000Z",
+          "time": "2026-09-10T03:15:00.000Z",
           "bo": 3,
           "stage": "小组赛 败者组 半决赛",
           "t1": {
             "name": "Alliance",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cpk2dikconklgsjvice0.png",
-            "score": "0"
+            "score": "2"
           },
           "t2": {
             "name": "TYLOO",
             "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pjf4nfq43340up40.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "completed"
+        },
+        {
+          "id": "cs2m-csgo_mc_2397611",
+          "time": "2026-09-10T03:45:00.000Z",
+          "bo": 3,
+          "stage": "小组赛 败者组 半决赛",
+          "t1": {
+            "name": "9z",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/co12ihcconklgsjvgua0.png",
+            "score": "1"
+          },
+          "t2": {
+            "name": "G2",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
+            "score": "1"
+          },
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2397616",
@@ -4816,11 +4816,11 @@
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_clr6upsconkqks63ctn0.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2397612",
-          "time": "2026-09-10T06:00:00.000Z",
+          "time": "2026-09-10T07:00:00.000Z",
           "bo": 3,
           "stage": "小组赛 败者组 半决赛",
           "t1": {
@@ -4892,8 +4892,8 @@
           "bo": 3,
           "stage": "小组赛 败者组 决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "Alliance",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cpk2dikconklgsjvice0.png",
             "score": "0"
           },
           "t2": {
