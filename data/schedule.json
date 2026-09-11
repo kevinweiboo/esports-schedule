@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-11T13:22:54.837Z",
+    "generatedAt": "2026-09-11T17:06:11.047Z",
     "total": 152,
     "byGame": {
       "valorant": 2,
@@ -88,91 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396563",
-          "time": "2026-08-12T13:45:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "Falcons",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cm0k2q4conkqks63d37g.png",
-            "score": "13"
-          },
-          "t2": {
-            "name": "K27",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cqjedmkconkotam7vsp0.png",
-            "score": "6"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396568",
-          "time": "2026-08-12T14:45:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "PARIVISION",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_clr6upsconkqks63ctn0.png",
-            "score": "11"
-          },
-          "t2": {
-            "name": "B8",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cee3h074nfq433414tf0.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396565",
-          "time": "2026-08-12T15:10:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "BB",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cq37mkkconkotam7vj7g.png",
-            "score": "11"
-          },
-          "t2": {
-            "name": "FaZe",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_d818n3cconkpudhr4jmg.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396564",
-          "time": "2026-08-12T16:25:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "MIBR",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
-            "score": "6"
-          },
-          "t2": {
-            "name": "Astralis",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ch9oh3n4nfqe2nie4t10.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396571",
-          "time": "2026-08-12T16:45:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "NAVI",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chdgdk74nfqe2nie51g0.png",
-            "score": "13"
-          },
-          "t2": {
-            "name": " 3DMAX",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cssus2cconkotam81h1g.png",
-            "score": "9"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396574",
           "time": "2026-08-12T17:55:00.000Z",
@@ -4694,8 +4609,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "G2",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
             "score": "0"
           },
           "status": "upcoming"
@@ -4799,7 +4714,7 @@
       "bestOf": null,
       "startTime": "2026-09-11T15:00:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "completed",
       "tierKey": "practice",
       "tierLabel": "练习赛",
       "venue": "Madring · Madrid",
@@ -5057,7 +4972,76 @@
       "venue": "欧洲",
       "prize": "$500,000",
       "streams": [],
-      "matches": [],
+      "matches": [
+        {
+          "id": "cs2m-csgo_mc_2398088",
+          "time": "2026-09-17T10:00:00.000Z",
+          "bo": 3,
+          "stage": "淘汰赛 胜者组 首轮",
+          "t1": {
+            "name": "MOUZ",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "NRG",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/coe8h0kconklgsjvh5gg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398089",
+          "time": "2026-09-17T12:30:00.000Z",
+          "bo": 3,
+          "stage": "淘汰赛 胜者组 首轮",
+          "t1": {
+            "name": "Vitality",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "magic",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/daaj9hsconkpudhr5c80.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398090",
+          "time": "2026-09-17T15:00:00.000Z",
+          "bo": 3,
+          "stage": "淘汰赛 胜者组 首轮",
+          "t1": {
+            "name": "NAVI",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chdgdk74nfqe2nie51g0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "Aurora",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398091",
+          "time": "2026-09-17T17:30:00.000Z",
+          "bo": 3,
+          "stage": "淘汰赛 胜者组 首轮",
+          "t1": {
+            "name": "FURIA",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "MIBR",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        }
+      ],
       "source": "5eplay"
     },
     {
