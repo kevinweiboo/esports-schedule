@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-11T17:06:11.047Z",
+    "generatedAt": "2026-09-11T19:57:06.071Z",
     "total": 152,
     "byGame": {
       "valorant": 2,
@@ -88,74 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396574",
-          "time": "2026-08-12T17:55:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "Wildcard",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cpsgc7cconklgsjvior0.png",
-            "score": "10"
-          },
-          "t2": {
-            "name": "FURIA",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396567",
-          "time": "2026-08-12T18:20:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "Vitality",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
-            "score": "13"
-          },
-          "t2": {
-            "name": "100 Thieves",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_d6kfct4conkpudhr3n40.png",
-            "score": "4"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396570",
-          "time": "2026-08-12T19:30:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "LVG",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3ssv4nfq43340vfu0.png",
-            "score": "8"
-          },
-          "t2": {
-            "name": "MOUZ",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396573",
-          "time": "2026-08-12T19:50:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "9z",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/co12ihcconklgsjvgua0.png",
-            "score": "13"
-          },
-          "t2": {
-            "name": "paiN",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_chae3jf4nfqe2nie4un0.png",
-            "score": "3"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396577",
           "time": "2026-08-13T11:00:00.000Z",
@@ -5037,6 +4969,176 @@
           "t2": {
             "name": "MIBR",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398099",
+          "time": "2026-09-18T10:00:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398100",
+          "time": "2026-09-18T12:30:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398101",
+          "time": "2026-09-18T15:00:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398102",
+          "time": "2026-09-18T17:30:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398103",
+          "time": "2026-09-19T10:00:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398104",
+          "time": "2026-09-19T12:30:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398105",
+          "time": "2026-09-19T15:00:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398106",
+          "time": "2026-09-19T17:30:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398107",
+          "time": "2026-09-20T12:00:00.000Z",
+          "bo": 3,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "score": "0"
+          },
+          "status": "upcoming"
+        },
+        {
+          "id": "cs2m-csgo_mc_2398108",
+          "time": "2026-09-20T15:00:00.000Z",
+          "bo": 5,
+          "stage": "",
+          "t1": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "score": "0"
+          },
+          "t2": {
+            "name": "TBD",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
             "score": "0"
           },
           "status": "upcoming"
