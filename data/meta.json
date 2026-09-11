@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-11T03:44:50.305Z",
-  "total": 156,
+  "generatedAt": "2026-09-11T08:45:01.709Z",
+  "total": 155,
   "byGame": {
     "valorant": 2,
     "cs2": 16,
-    "lol": 78,
+    "lol": 77,
     "f1": 60
   },
   "sources": [
@@ -12,7 +12,7 @@
       "key": "lol",
       "label": "英雄联盟 LPL/LCK",
       "ok": true,
-      "count": 78,
+      "count": 77,
       "error": ""
     },
     {

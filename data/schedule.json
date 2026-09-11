@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-11T03:44:50.305Z",
-    "total": 156,
+    "generatedAt": "2026-09-11T08:45:01.709Z",
+    "total": 155,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 78,
+      "lol": 77,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 78,
+        "count": 77,
         "error": ""
       },
       {
@@ -1042,44 +1042,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-115548147900750245",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 12 周",
-      "title": "NS vs DNS",
-      "teams": [
-        {
-          "name": "NONGSHIM RED FORCE",
-          "code": "NS",
-          "logo": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "score": 1
-        },
-        {
-          "name": "DN SOOPers",
-          "code": "DNS",
-          "logo": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-12T08:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-116566854547769736",
@@ -4911,18 +4873,18 @@
           "t1": {
             "name": "MIBR",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
-            "score": "0"
+            "score": "2"
           },
           "t2": {
             "name": "Alliance",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cpk2dikconklgsjvice0.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2397619",
-          "time": "2026-09-11T09:00:00.000Z",
+          "time": "2026-09-11T09:15:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 1/4决赛",
           "t1": {
@@ -4948,8 +4910,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "MIBR",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
             "score": "0"
           },
           "status": "upcoming"
