@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-11T08:45:01.709Z",
-    "total": 155,
+    "generatedAt": "2026-09-11T13:22:54.837Z",
+    "total": 152,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 77,
+      "lol": 74,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 77,
+        "count": 74,
         "error": ""
       },
       {
@@ -88,125 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396562",
-          "time": "2026-08-12T09:00:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "BIG",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgdr7u9ll806h1bg2os0.png",
-            "score": "13"
-          },
-          "t2": {
-            "name": "Aurora",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
-            "score": "9"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396560",
-          "time": "2026-08-12T09:00:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "Luminosity",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3qa74nfq43340uuo0.png",
-            "score": "3"
-          },
-          "t2": {
-            "name": "GL",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d7ldoasconkpudhr4da0.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396569",
-          "time": "2026-08-12T10:20:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "FUT",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d5j35lsconkpudhr3gk0.png",
-            "score": "13"
-          },
-          "t2": {
-            "name": "TYLOO",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pjf4nfq43340up40.png",
-            "score": "10"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396559",
-          "time": "2026-08-12T10:35:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "Spirit",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgchcqhll806h1bg2lt0.png",
-            "score": "10"
-          },
-          "t2": {
-            "name": "JJH",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d00eh74conkt3lege5ag.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396572",
-          "time": "2026-08-12T11:55:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "magic",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6020ukconkpudhr3kig.png",
-            "score": "7"
-          },
-          "t2": {
-            "name": "Mongolz",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cotdagsconklgsjvhg10.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396561",
-          "time": "2026-08-12T12:10:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "G2",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
-            "score": "13"
-          },
-          "t2": {
-            "name": "M80",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d3r1ojsconkqbk3bnu4g.png",
-            "score": "11"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396566",
-          "time": "2026-08-12T13:20:00.000Z",
-          "bo": 1,
-          "stage": "小组赛 胜者组 首轮",
-          "t1": {
-            "name": "NIP",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_clsl1asconkqks63cvg0.png",
-            "score": "5"
-          },
-          "t2": {
-            "name": "Legacy",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
-            "score": "13"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396563",
           "time": "2026-08-12T13:45:00.000Z",
@@ -1042,120 +923,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-116566854547769736",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "AL vs EDG",
-      "teams": [
-        {
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "logo": "http://static.lolesports.com/teams/1641199582689_.png",
-          "score": 2
-        },
-        {
-          "name": "EDWARD GAMING",
-          "code": "EDG",
-          "logo": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-12T09:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900684589",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 12 周",
-      "title": "DK vs KT",
-      "teams": [
-        {
-          "name": "Dplus KIA",
-          "code": "DK",
-          "logo": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "score": 2
-        },
-        {
-          "name": "kt Rolster",
-          "code": "KT",
-          "logo": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "score": 0
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-12T10:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-116566854547769668",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "JDG vs BLG",
-      "teams": [
-        {
-          "name": "Beijing JDG Esports",
-          "code": "JDG",
-          "logo": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "score": 2
-        },
-        {
-          "name": "BILIBILI GAMING",
-          "code": "BLG",
-          "logo": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-12T11:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-116566854547835348",
@@ -4895,9 +4662,9 @@
           "t2": {
             "name": "G2",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
-            "score": "0"
+            "score": "2"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2397622",
@@ -5007,7 +4774,7 @@
       "bestOf": null,
       "startTime": "2026-09-11T11:30:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "completed",
       "tierKey": "practice",
       "tierLabel": "练习赛",
       "venue": "Madring · Madrid",
