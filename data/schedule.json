@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-12T05:28:49.249Z",
-    "total": 152,
+    "generatedAt": "2026-09-12T09:32:59.357Z",
+    "total": 149,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 74,
+      "lol": 71,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 74,
+        "count": 71,
         "error": ""
       },
       {
@@ -770,120 +770,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-116566854547835348",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "WBG vs NIP",
-      "teams": [
-        {
-          "name": "WeiboGaming",
-          "code": "WBG",
-          "logo": "http://static.lolesports.com/teams/1641202879910_3.png",
-          "score": 1
-        },
-        {
-          "name": "Shenzhen NINJAS IN PYJAMAS",
-          "code": "NIP",
-          "logo": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-13T07:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900750225",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 12 周",
-      "title": "KRX vs BFX",
-      "teams": [
-        {
-          "name": "KIWOOM DRX",
-          "code": "KRX",
-          "logo": "http://static.lolesports.com/teams/1774247803537_horizontal_EN_Wh.png",
-          "score": 1
-        },
-        {
-          "name": "BNK FEARX",
-          "code": "BFX",
-          "logo": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-13T08:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-116566854547769696",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "LGD vs TES",
-      "teams": [
-        {
-          "name": "LGD GAMING",
-          "code": "LGD",
-          "logo": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "score": 2
-        },
-        {
-          "name": "TOP ESPORTS",
-          "code": "TES",
-          "logo": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "score": 0
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-13T09:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-115548147900619021",
@@ -4515,24 +4401,24 @@
         },
         {
           "id": "cs2m-csgo_mc_2397622",
-          "time": "2026-09-12T06:00:00.000Z",
+          "time": "2026-09-12T06:15:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 半决赛",
           "t1": {
             "name": "Legacy",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
-            "score": "0"
+            "score": "1"
           },
           "t2": {
             "name": "MIBR",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2397621",
-          "time": "2026-09-12T09:00:00.000Z",
+          "time": "2026-09-12T10:00:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 半决赛",
           "t1": {
@@ -4672,19 +4558,19 @@
           "name": "Hanwha Life Esports",
           "code": "HLE",
           "logo": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "score": 0
+          "score": 3
         },
         {
           "name": "T1",
           "code": "T1",
           "logo": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "score": 0
+          "score": 1
         }
       ],
       "bestOf": 5,
       "startTime": "2026-09-12T05:00:00.000Z",
       "endTime": null,
-      "status": "live",
+      "status": "completed",
       "tierKey": "regional",
       "tierLabel": "赛区联赛",
       "venue": "",
@@ -4722,7 +4608,7 @@
       "bestOf": 5,
       "startTime": "2026-09-12T09:00:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "completed",
       "tierKey": "regional",
       "tierLabel": "赛区联赛",
       "venue": "",
@@ -4792,13 +4678,13 @@
       "regionGroup": "韩国",
       "tournament": "LCK",
       "stage": "决赛",
-      "title": "TBD vs GEN",
+      "title": "HLE vs GEN",
       "teams": [
         {
-          "name": "TBD",
-          "code": "TBD",
-          "logo": "https://static.lolesports.com/teams/team-tbd.png",
-          "score": null
+          "name": "Hanwha Life Esports",
+          "code": "HLE",
+          "logo": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "score": 0
         },
         {
           "name": "Gen.G Esports",
