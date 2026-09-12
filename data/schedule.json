@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-12T00:30:56.056Z",
+    "generatedAt": "2026-09-12T05:28:49.249Z",
     "total": 152,
     "byGame": {
       "valorant": 2,
@@ -4666,25 +4666,25 @@
       "regionGroup": "韩国",
       "tournament": "LCK",
       "stage": "淘汰赛",
-      "title": "T1 vs HLE",
+      "title": "HLE vs T1",
       "teams": [
-        {
-          "name": "T1",
-          "code": "T1",
-          "logo": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "score": 0
-        },
         {
           "name": "Hanwha Life Esports",
           "code": "HLE",
           "logo": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "score": 0
+        },
+        {
+          "name": "T1",
+          "code": "T1",
+          "logo": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
           "score": 0
         }
       ],
       "bestOf": 5,
       "startTime": "2026-09-12T05:00:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "live",
       "tierKey": "regional",
       "tierLabel": "赛区联赛",
       "venue": "",
