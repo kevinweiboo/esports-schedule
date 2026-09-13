@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-13T06:38:29.679Z",
-    "total": 147,
+    "generatedAt": "2026-09-13T12:37:08.501Z",
+    "total": 142,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 69,
+      "lol": 64,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 69,
+        "count": 64,
         "error": ""
       },
       {
@@ -88,40 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396586",
-          "time": "2026-08-14T11:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 首轮",
-          "t1": {
-            "name": "TYLOO",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pjf4nfq43340up40.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "LVG",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3ssv4nfq43340vfu0.png",
-            "score": "2"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396582",
-          "time": "2026-08-14T11:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 首轮",
-          "t1": {
-            "name": "NIP",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_clsl1asconkqks63cvg0.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "BB",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cq37mkkconkotam7vj7g.png",
-            "score": "0"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396584",
           "time": "2026-08-14T13:30:00.000Z",
@@ -668,196 +634,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-116566854547835292",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "EDG vs LGD",
-      "teams": [
-        {
-          "name": "EDWARD GAMING",
-          "code": "EDG",
-          "logo": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "score": 0
-        },
-        {
-          "name": "LGD GAMING",
-          "code": "LGD",
-          "logo": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-14T07:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900619041",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 12 周",
-      "title": "DK vs T1",
-      "teams": [
-        {
-          "name": "Dplus KIA",
-          "code": "DK",
-          "logo": "http://static.lolesports.com/teams/1673260049703_DPlusKIALOGO11.png",
-          "score": 2
-        },
-        {
-          "name": "T1",
-          "code": "T1",
-          "logo": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-14T08:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-116566854547769684",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "WE vs TES",
-      "teams": [
-        {
-          "name": "Xi'an Team WE",
-          "code": "WE",
-          "logo": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "score": 2
-        },
-        {
-          "name": "TOP ESPORTS",
-          "code": "TES",
-          "logo": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "score": 0
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-14T09:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900684681",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 12 周",
-      "title": "BRO vs NS",
-      "teams": [
-        {
-          "name": "HANJIN BRION",
-          "code": "BRO",
-          "logo": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "score": 0
-        },
-        {
-          "name": "NONGSHIM RED FORCE",
-          "code": "NS",
-          "logo": "http://static.lolesports.com/teams/NSFullonDark.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-14T10:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-116566854547769728",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "JDG vs AL",
-      "teams": [
-        {
-          "name": "Beijing JDG Esports",
-          "code": "JDG",
-          "logo": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "score": 1
-        },
-        {
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "logo": "http://static.lolesports.com/teams/1641199582689_.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-14T11:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-116566854547835340",
@@ -4257,20 +4033,20 @@
         },
         {
           "id": "cs2m-csgo_mc_2397623",
-          "time": "2026-09-13T09:00:00.000Z",
+          "time": "2026-09-13T09:10:00.000Z",
           "bo": 5,
           "stage": "淘汰赛 决赛",
           "t1": {
             "name": "Legacy",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
-            "score": "0"
+            "score": "3"
           },
           "t2": {
             "name": "G2",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "completed"
         }
       ],
       "source": "5eplay"
@@ -4506,7 +4282,7 @@
           "name": "Gen.G Esports",
           "code": "GEN",
           "logo": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "score": 0
+          "score": 3
         },
         {
           "name": "Hanwha Life Esports",
@@ -4518,7 +4294,7 @@
       "bestOf": 5,
       "startTime": "2026-09-13T05:00:00.000Z",
       "endTime": null,
-      "status": "live",
+      "status": "completed",
       "tierKey": "regional",
       "tierLabel": "赛区联赛",
       "venue": "",
@@ -4544,19 +4320,19 @@
           "name": "Anyone's Legend",
           "code": "AL",
           "logo": "http://static.lolesports.com/teams/1641199582689_.png",
-          "score": 0
+          "score": 2
         },
         {
           "name": "BILIBILI GAMING",
           "code": "BLG",
           "logo": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "score": 0
+          "score": 1
         }
       ],
       "bestOf": 5,
       "startTime": "2026-09-13T09:00:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "completed",
       "tierKey": "regional",
       "tierLabel": "赛区联赛",
       "venue": "",
