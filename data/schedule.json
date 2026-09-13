@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-13T12:37:08.501Z",
+    "generatedAt": "2026-09-13T16:53:29.056Z",
     "total": 142,
     "byGame": {
       "valorant": 2,
@@ -88,40 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396584",
-          "time": "2026-08-14T13:30:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 胜者组 决赛",
-          "t1": {
-            "name": "FUT",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d5j35lsconkpudhr3gk0.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "MOUZ",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396583",
-          "time": "2026-08-14T13:30:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 胜者组 决赛",
-          "t1": {
-            "name": "B8",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cee3h074nfq433414tf0.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "Vitality",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396585",
           "time": "2026-08-14T17:15:00.000Z",
@@ -2061,9 +2027,9 @@
       "leagueImage": "https://oss.5eplay.com/cloudx/p/sport/csgo/tournament/da75avcconkpudhr5btg.png",
       "region": "",
       "regionGroup": "国际",
-      "tournament": "BLAST 波尔图公开赛 2026",
+      "tournament": "BLAST 波尔图公开赛",
       "stage": "S级",
-      "title": "BLAST 波尔图公开赛 2026",
+      "title": "BLAST 波尔图公开赛",
       "teams": [],
       "bestOf": null,
       "startTime": "2026-08-25T16:00:00.000Z",
@@ -3547,8 +3513,8 @@
       "teams": [],
       "bestOf": null,
       "startTime": "2026-09-07T16:00:00.000Z",
-      "endTime": "2026-09-13T15:59:59.000Z",
-      "status": "live",
+      "endTime": "2026-09-13T12:39:59.000Z",
+      "status": "completed",
       "tierKey": "t1",
       "tierLabel": "S级",
       "venue": "中国，苏州",
@@ -4320,7 +4286,7 @@
           "name": "Anyone's Legend",
           "code": "AL",
           "logo": "http://static.lolesports.com/teams/1641199582689_.png",
-          "score": 2
+          "score": 3
         },
         {
           "name": "BILIBILI GAMING",
@@ -4357,7 +4323,7 @@
       "bestOf": null,
       "startTime": "2026-09-13T13:00:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "completed",
       "tierKey": "international",
       "tierLabel": "国际大赛",
       "venue": "Madring · Madrid",
