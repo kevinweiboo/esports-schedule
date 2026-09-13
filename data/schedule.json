@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-13T01:20:22.462Z",
+    "generatedAt": "2026-09-13T06:38:29.679Z",
     "total": 147,
     "byGame": {
       "valorant": 2,
@@ -4500,25 +4500,25 @@
       "regionGroup": "韩国",
       "tournament": "LCK",
       "stage": "决赛",
-      "title": "HLE vs GEN",
+      "title": "GEN vs HLE",
       "teams": [
-        {
-          "name": "Hanwha Life Esports",
-          "code": "HLE",
-          "logo": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "score": 0
-        },
         {
           "name": "Gen.G Esports",
           "code": "GEN",
           "logo": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
           "score": 0
+        },
+        {
+          "name": "Hanwha Life Esports",
+          "code": "HLE",
+          "logo": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
+          "score": 1
         }
       ],
       "bestOf": 5,
       "startTime": "2026-09-13T05:00:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "live",
       "tierKey": "regional",
       "tierLabel": "赛区联赛",
       "venue": "",
