@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-14T16:28:32.892Z",
+    "generatedAt": "2026-09-14T20:27:43.775Z",
     "total": 137,
     "byGame": {
       "valorant": 2,
@@ -88,40 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396592",
-          "time": "2026-08-15T16:50:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 决赛",
-          "t1": {
-            "name": "JJH",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d00eh74conkt3lege5ag.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "Aurora",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
-            "score": "2"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396591",
-          "time": "2026-08-15T18:10:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 决赛",
-          "t1": {
-            "name": "Spirit",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgchcqhll806h1bg2lt0.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "BIG",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgdr7u9ll806h1bg2os0.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396598",
           "time": "2026-08-16T11:00:00.000Z",
@@ -5512,7 +5478,7 @@
       "status": "upcoming",
       "tierKey": "practice",
       "tierLabel": "练习赛",
-      "venue": "Losail International Circuit · Lusail",
+      "venue": "Lusail International Circuit · Lusail",
       "prize": "",
       "streams": [],
       "matches": [],
@@ -5537,7 +5503,7 @@
       "status": "upcoming",
       "tierKey": "practice",
       "tierLabel": "练习赛",
-      "venue": "Losail International Circuit · Lusail",
+      "venue": "Lusail International Circuit · Lusail",
       "prize": "",
       "streams": [],
       "matches": [],
@@ -5562,7 +5528,7 @@
       "status": "upcoming",
       "tierKey": "practice",
       "tierLabel": "练习赛",
-      "venue": "Losail International Circuit · Lusail",
+      "venue": "Lusail International Circuit · Lusail",
       "prize": "",
       "streams": [],
       "matches": [],
@@ -5587,7 +5553,7 @@
       "status": "upcoming",
       "tierKey": "international",
       "tierLabel": "国际大赛",
-      "venue": "Losail International Circuit · Lusail",
+      "venue": "Lusail International Circuit · Lusail",
       "prize": "",
       "streams": [],
       "matches": [],
@@ -5612,7 +5578,7 @@
       "status": "upcoming",
       "tierKey": "international",
       "tierLabel": "国际大赛",
-      "venue": "Losail International Circuit · Lusail",
+      "venue": "Lusail International Circuit · Lusail",
       "prize": "",
       "streams": [],
       "matches": [],
