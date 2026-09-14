@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-13T23:56:42.805Z",
+    "generatedAt": "2026-09-14T04:31:38.572Z",
     "total": 142,
     "byGame": {
       "valorant": 2,
@@ -4393,7 +4393,7 @@
           "id": "cs2m-csgo_mc_2398099",
           "time": "2026-09-18T10:00:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 败者组 首轮",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4410,7 +4410,7 @@
           "id": "cs2m-csgo_mc_2398100",
           "time": "2026-09-18T12:30:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 败者组 首轮",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4427,7 +4427,7 @@
           "id": "cs2m-csgo_mc_2398101",
           "time": "2026-09-18T15:00:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 胜者组 半决赛",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4444,7 +4444,7 @@
           "id": "cs2m-csgo_mc_2398102",
           "time": "2026-09-18T17:30:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 胜者组 半决赛",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4461,7 +4461,7 @@
           "id": "cs2m-csgo_mc_2398103",
           "time": "2026-09-19T10:00:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 败者组 1/4决赛",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4478,7 +4478,7 @@
           "id": "cs2m-csgo_mc_2398104",
           "time": "2026-09-19T12:30:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 败者组 1/4决赛",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4495,7 +4495,7 @@
           "id": "cs2m-csgo_mc_2398105",
           "time": "2026-09-19T15:00:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 胜者组 决赛",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4512,7 +4512,7 @@
           "id": "cs2m-csgo_mc_2398106",
           "time": "2026-09-19T17:30:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 败者组 半决赛",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4529,7 +4529,7 @@
           "id": "cs2m-csgo_mc_2398107",
           "time": "2026-09-20T12:00:00.000Z",
           "bo": 3,
-          "stage": "",
+          "stage": "淘汰赛 败者组 决赛",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
@@ -4546,7 +4546,7 @@
           "id": "cs2m-csgo_mc_2398108",
           "time": "2026-09-20T15:00:00.000Z",
           "bo": 5,
-          "stage": "",
+          "stage": "淘汰赛  总决赛",
           "t1": {
             "name": "TBD",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
