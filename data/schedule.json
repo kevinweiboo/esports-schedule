@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-14T10:24:01.275Z",
-    "total": 138,
+    "generatedAt": "2026-09-14T16:28:32.892Z",
+    "total": 137,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 60,
+      "lol": 59,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 60,
+        "count": 59,
         "error": ""
       },
       {
@@ -88,74 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396590",
-          "time": "2026-08-15T11:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 首轮",
-          "t1": {
-            "name": "Wildcard",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cpsgc7cconklgsjvior0.png",
-            "score": "1"
-          },
-          "t2": {
-            "name": "paiN",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_chae3jf4nfqe2nie4un0.png",
-            "score": "2"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396587",
-          "time": "2026-08-15T11:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 胜者组 决赛",
-          "t1": {
-            "name": "Mongolz",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cotdagsconklgsjvhg10.png",
-            "score": "1"
-          },
-          "t2": {
-            "name": "NAVI",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chdgdk74nfqe2nie51g0.png",
-            "score": "2"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396588",
-          "time": "2026-08-15T14:20:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 胜者组 决赛",
-          "t1": {
-            "name": "FURIA",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "9z",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/co12ihcconklgsjvgua0.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396589",
-          "time": "2026-08-15T14:25:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 首轮",
-          "t1": {
-            "name": "magic",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6020ukconkpudhr3kig.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": " 3DMAX",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cssus2cconkotam81h1g.png",
-            "score": "0"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396592",
           "time": "2026-08-15T16:50:00.000Z",
@@ -566,44 +498,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-116566854547769660",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "BLG vs WE",
-      "teams": [
-        {
-          "name": "BILIBILI GAMING",
-          "code": "BLG",
-          "logo": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "score": 2
-        },
-        {
-          "name": "Xi'an Team WE",
-          "code": "WE",
-          "logo": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "score": 0
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-15T11:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-116566854547769744",
