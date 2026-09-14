@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-14T04:31:38.572Z",
-    "total": 142,
+    "generatedAt": "2026-09-14T10:24:01.275Z",
+    "total": 138,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 64,
+      "lol": 60,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 64,
+        "count": 60,
         "error": ""
       },
       {
@@ -566,158 +566,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-116566854547835340",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "NIP vs LNG",
-      "teams": [
-        {
-          "name": "Shenzhen NINJAS IN PYJAMAS",
-          "code": "NIP",
-          "logo": "http://static.lolesports.com/teams/1673425724696_NIP-Symbol-RGB-NeonYellow1.png",
-          "score": 2
-        },
-        {
-          "name": "Suzhou LNG Esports",
-          "code": "LNG",
-          "logo": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-15T07:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900619025",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 12 周",
-      "title": "KT vs HLE",
-      "teams": [
-        {
-          "name": "kt Rolster",
-          "code": "KT",
-          "logo": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "score": 1
-        },
-        {
-          "name": "Hanwha Life Esports",
-          "code": "HLE",
-          "logo": "http://static.lolesports.com/teams/1631819564399_hle-2021-worlds.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-15T08:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-116566854547769740",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "AL vs TT",
-      "teams": [
-        {
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "logo": "http://static.lolesports.com/teams/1641199582689_.png",
-          "score": 2
-        },
-        {
-          "name": "THUNDER TALK GAMING",
-          "code": "TT",
-          "logo": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-15T09:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900750233",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 12 周",
-      "title": "BFX vs DNS",
-      "teams": [
-        {
-          "name": "BNK FEARX",
-          "code": "BFX",
-          "logo": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "score": 0
-        },
-        {
-          "name": "DN SOOPers",
-          "code": "DNS",
-          "logo": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-15T10:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-116566854547769660",
