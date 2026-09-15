@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-15T17:32:57.387Z",
+    "generatedAt": "2026-09-15T21:00:18.604Z",
     "total": 132,
     "byGame": {
       "valorant": 2,
@@ -88,23 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396593",
-          "time": "2026-08-16T17:45:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 决赛",
-          "t1": {
-            "name": "Legacy",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "MIBR",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
-            "score": "0"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396599",
           "time": "2026-08-19T14:10:00.000Z",
