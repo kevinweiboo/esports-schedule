@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-15T12:50:30.066Z",
+    "generatedAt": "2026-09-15T17:32:57.387Z",
     "total": 132,
     "byGame": {
       "valorant": 2,
@@ -88,57 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396595",
-          "time": "2026-08-16T13:20:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 决赛",
-          "t1": {
-            "name": "MOUZ",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "PARIVISION",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_clr6upsconkqks63ctn0.png",
-            "score": "0"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396597",
-          "time": "2026-08-16T13:25:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 决赛",
-          "t1": {
-            "name": "magic",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6020ukconkpudhr3kig.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "9z",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/co12ihcconklgsjvgua0.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396594",
-          "time": "2026-08-16T16:00:00.000Z",
-          "bo": 3,
-          "stage": "小组赛 败者组 决赛",
-          "t1": {
-            "name": "Astralis",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ch9oh3n4nfqe2nie4t10.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "NIP",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_clsl1asconkqks63cvg0.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396593",
           "time": "2026-08-16T17:45:00.000Z",
@@ -3942,7 +3891,7 @@
           "status": "upcoming"
         },
         {
-          "id": "cs2m-csgo_mc_2398103",
+          "id": "cs2m-csgo_mc_2398104",
           "time": "2026-09-19T10:00:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 败者组 1/4决赛",
@@ -3959,7 +3908,7 @@
           "status": "upcoming"
         },
         {
-          "id": "cs2m-csgo_mc_2398104",
+          "id": "cs2m-csgo_mc_2398103",
           "time": "2026-09-19T12:30:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 败者组 1/4决赛",
