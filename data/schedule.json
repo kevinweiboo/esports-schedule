@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-15T01:46:20.561Z",
-    "total": 137,
+    "generatedAt": "2026-09-15T07:26:03.125Z",
+    "total": 136,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 59,
+      "lol": 58,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 59,
+        "count": 58,
         "error": ""
       },
       {
@@ -464,44 +464,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-116566854547769744",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 4 周",
-      "title": "JDG vs LGD",
-      "teams": [
-        {
-          "name": "Beijing JDG Esports",
-          "code": "JDG",
-          "logo": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "score": 1
-        },
-        {
-          "name": "LGD GAMING",
-          "code": "LGD",
-          "logo": "http://static.lolesports.com/teams/LGD-FullonDark-1.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-16T07:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-115548147900619033",
