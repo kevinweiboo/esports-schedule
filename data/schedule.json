@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-16T07:25:18.856Z",
+    "generatedAt": "2026-09-16T12:45:47.451Z",
     "total": 132,
     "byGame": {
       "valorant": 2,
@@ -3989,19 +3989,19 @@
       "regionGroup": "中国大陆",
       "tournament": "LPL",
       "stage": "赛区资格赛",
-      "title": "TBD vs TBD",
+      "title": "TES vs IG",
       "teams": [
         {
-          "name": "TBD",
-          "code": "TBD",
-          "logo": "https://static.lolesports.com/teams/team-tbd.png",
-          "score": null
+          "name": "TOP ESPORTS",
+          "code": "TES",
+          "logo": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
+          "score": 0
         },
         {
-          "name": "TBD",
-          "code": "TBD",
-          "logo": "https://static.lolesports.com/teams/team-tbd.png",
-          "score": null
+          "name": "Invictus Gaming",
+          "code": "IG",
+          "logo": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
+          "score": 0
         }
       ],
       "bestOf": 5,
@@ -4027,19 +4027,19 @@
       "regionGroup": "中国大陆",
       "tournament": "LPL",
       "stage": "赛区资格赛",
-      "title": "TBD vs TBD",
+      "title": "WE vs JDG",
       "teams": [
         {
-          "name": "TBD",
-          "code": "TBD",
-          "logo": "https://static.lolesports.com/teams/team-tbd.png",
-          "score": null
+          "name": "Xi'an Team WE",
+          "code": "WE",
+          "logo": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
+          "score": 0
         },
         {
-          "name": "TBD",
-          "code": "TBD",
-          "logo": "https://static.lolesports.com/teams/team-tbd.png",
-          "score": null
+          "name": "Beijing JDG Esports",
+          "code": "JDG",
+          "logo": "http://static.lolesports.com/teams/1627457924722_29.png",
+          "score": 0
         }
       ],
       "bestOf": 5,
