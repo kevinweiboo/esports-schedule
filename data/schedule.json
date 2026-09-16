@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-16T01:36:42.391Z",
+    "generatedAt": "2026-09-16T07:25:18.856Z",
     "total": 132,
     "byGame": {
       "valorant": 2,
@@ -3733,7 +3733,7 @@
       "status": "upcoming",
       "tierKey": "t1",
       "tierLabel": "S级",
-      "venue": "欧洲",
+      "venue": "西班牙，巴塞罗那",
       "prize": "$500,000",
       "streams": [],
       "matches": [
