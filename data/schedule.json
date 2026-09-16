@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-16T12:45:47.451Z",
+    "generatedAt": "2026-09-16T17:32:48.646Z",
     "total": 132,
     "byGame": {
       "valorant": 2,
@@ -3730,7 +3730,7 @@
       "bestOf": null,
       "startTime": "2026-09-16T16:00:00.000Z",
       "endTime": "2026-09-20T15:59:59.000Z",
-      "status": "upcoming",
+      "status": "live",
       "tierKey": "t1",
       "tierLabel": "S级",
       "venue": "西班牙，巴塞罗那",
