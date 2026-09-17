@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-09-17T14:46:10.017Z",
-    "total": 132,
+    "generatedAt": "2026-09-17T18:52:29.963Z",
+    "total": 133,
     "byGame": {
       "valorant": 2,
-      "cs2": 16,
+      "cs2": 17,
       "lol": 54,
       "f1": 60
     },
@@ -27,7 +27,7 @@
         "key": "cs2",
         "label": "CS2 S级/S+/Major",
         "ok": true,
-        "count": 16,
+        "count": 17,
         "error": ""
       },
       {
@@ -3762,18 +3762,18 @@
           "t1": {
             "name": "Vitality",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
-            "score": "1"
+            "score": "2"
           },
           "t2": {
             "name": "magic",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/daaj9hsconkpudhr5c80.png",
             "score": "0"
           },
-          "status": "live"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398090",
-          "time": "2026-09-17T15:00:00.000Z",
+          "time": "2026-09-17T15:05:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 胜者组 首轮",
           "t1": {
@@ -3784,13 +3784,13 @@
           "t2": {
             "name": "Aurora",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
-            "score": "0"
+            "score": "2"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398091",
-          "time": "2026-09-17T17:30:00.000Z",
+          "time": "2026-09-17T17:10:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 胜者组 首轮",
           "t1": {
@@ -3801,9 +3801,9 @@
           "t2": {
             "name": "MIBR",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2398099",
@@ -3816,8 +3816,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "NAVI",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chdgdk74nfqe2nie51g0.png",
             "score": "0"
           },
           "status": "upcoming"
@@ -3828,8 +3828,8 @@
           "bo": 3,
           "stage": "淘汰赛 败者组 首轮",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "magic",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/daaj9hsconkpudhr5c80.png",
             "score": "0"
           },
           "t2": {
@@ -3850,8 +3850,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "Aurora",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
             "score": "0"
           },
           "status": "upcoming"
@@ -3862,8 +3862,8 @@
           "bo": 3,
           "stage": "淘汰赛 胜者组 半决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "Vitality",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
             "score": "0"
           },
           "t2": {
@@ -5538,6 +5538,31 @@
       "tierLabel": "S级",
       "venue": "沙特阿拉伯",
       "prize": "$1,250,000",
+      "streams": [],
+      "matches": [],
+      "source": "5eplay"
+    },
+    {
+      "id": "cs2-csgo_tt_8325",
+      "game": "cs2",
+      "gameLabel": "CS2",
+      "league": "CS2",
+      "leagueSlug": "cs2",
+      "leagueImage": "https://oss.5eplay.com/cloudx/p/sport/csgo/tournament/da75ba4conkpudhr5bu0.png",
+      "region": "",
+      "regionGroup": "国际",
+      "tournament": "BLAST 公开赛 2027 第1赛季",
+      "stage": "S级",
+      "title": "BLAST 公开赛 2027 第1赛季",
+      "teams": [],
+      "bestOf": null,
+      "startTime": "2027-03-16T16:00:00.000Z",
+      "endTime": "2027-03-28T15:59:59.000Z",
+      "status": "upcoming",
+      "tierKey": "t1",
+      "tierLabel": "S级",
+      "venue": "Other-TBA",
+      "prize": "TBA",
       "streams": [],
       "matches": [],
       "source": "5eplay"
