@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-17T09:36:00.903Z",
+    "generatedAt": "2026-09-17T14:46:10.017Z",
     "total": 132,
     "byGame": {
       "valorant": 2,
@@ -3745,31 +3745,31 @@
           "t1": {
             "name": "MOUZ",
             "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
-            "score": "0"
+            "score": "1"
           },
           "t2": {
             "name": "NRG",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/coe8h0kconklgsjvh5gg.png",
-            "score": "0"
+            "score": "2"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398089",
-          "time": "2026-09-17T12:30:00.000Z",
+          "time": "2026-09-17T13:05:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 胜者组 首轮",
           "t1": {
             "name": "Vitality",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
-            "score": "0"
+            "score": "1"
           },
           "t2": {
             "name": "magic",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/daaj9hsconkpudhr5c80.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2398090",
@@ -3811,8 +3811,8 @@
           "bo": 3,
           "stage": "淘汰赛 败者组 首轮",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "MOUZ",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
             "score": "0"
           },
           "t2": {
@@ -3845,8 +3845,8 @@
           "bo": 3,
           "stage": "淘汰赛 胜者组 半决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "NRG",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/coe8h0kconklgsjvh5gg.png",
             "score": "0"
           },
           "t2": {
@@ -3995,13 +3995,13 @@
           "name": "TOP ESPORTS",
           "code": "TES",
           "logo": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "score": 0
+          "score": 3
         },
         {
           "name": "Invictus Gaming",
           "code": "IG",
           "logo": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "score": 0
+          "score": 1
         }
       ],
       "bestOf": 5,
@@ -4065,7 +4065,7 @@
       "regionGroup": "中国大陆",
       "tournament": "LPL",
       "stage": "赛区资格赛",
-      "title": "TBD vs TBD",
+      "title": "TBD vs IG",
       "teams": [
         {
           "name": "TBD",
@@ -4074,10 +4074,10 @@
           "score": null
         },
         {
-          "name": "TBD",
-          "code": "TBD",
-          "logo": "https://static.lolesports.com/teams/team-tbd.png",
-          "score": null
+          "name": "Invictus Gaming",
+          "code": "IG",
+          "logo": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
+          "score": 0
         }
       ],
       "bestOf": 5,
