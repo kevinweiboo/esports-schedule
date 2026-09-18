@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-09-18T00:04:21.219Z",
-    "total": 133,
+    "generatedAt": "2026-09-18T05:02:20.406Z",
+    "total": 132,
     "byGame": {
       "valorant": 2,
-      "cs2": 17,
+      "cs2": 16,
       "lol": 54,
       "f1": 60
     },
@@ -27,7 +27,7 @@
         "key": "cs2",
         "label": "CS2 S级/S+/Major",
         "ok": true,
-        "count": 17,
+        "count": 16,
         "error": ""
       },
       {
@@ -4516,31 +4516,6 @@
       "streams": [],
       "matches": [],
       "source": "jolpica"
-    },
-    {
-      "id": "cs2-csgo_tt_8262",
-      "game": "cs2",
-      "gameLabel": "CS2",
-      "league": "CS2",
-      "leagueSlug": "cs2",
-      "leagueImage": "https://oss.5eplay.com/sport/csgo/event/null.png",
-      "region": "",
-      "regionGroup": "国际",
-      "tournament": "Eden Esports 英雄锻造 2026",
-      "stage": "S级",
-      "title": "Eden Esports 英雄锻造 2026",
-      "teams": [],
-      "bestOf": null,
-      "startTime": "2026-10-12T16:00:00.000Z",
-      "endTime": "2026-10-18T15:59:59.000Z",
-      "status": "upcoming",
-      "tierKey": "t1",
-      "tierLabel": "S级",
-      "venue": "Europe-TBA",
-      "prize": "$500,000",
-      "streams": [],
-      "matches": [],
-      "source": "5eplay"
     },
     {
       "id": "cs2-csgo_tt_8932",
