@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-18T05:02:20.406Z",
-    "total": 132,
+    "generatedAt": "2026-09-18T09:59:22.208Z",
+    "total": 128,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 54,
+      "lol": 50,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 54,
+        "count": 50,
         "error": ""
       },
       {
@@ -362,158 +362,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-116566854547835344",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 5 周",
-      "title": "WBG vs LNG",
-      "teams": [
-        {
-          "name": "WeiboGaming",
-          "code": "WBG",
-          "logo": "http://static.lolesports.com/teams/1641202879910_3.png",
-          "score": 2
-        },
-        {
-          "name": "Suzhou LNG Esports",
-          "code": "LNG",
-          "logo": "http://static.lolesports.com/teams/1717487697003_LNGlogo.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-19T07:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-116566854547769688",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 5 周",
-      "title": "TES vs AL",
-      "teams": [
-        {
-          "name": "TOP ESPORTS",
-          "code": "TES",
-          "logo": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "score": 2
-        },
-        {
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "logo": "http://static.lolesports.com/teams/1641199582689_.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-19T08:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900619045",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 13 周",
-      "title": "GEN vs KT",
-      "teams": [
-        {
-          "name": "Gen.G Esports",
-          "code": "GEN",
-          "logo": "http://static.lolesports.com/teams/1773829250929_GENGLOGO_GOLD.png",
-          "score": 2
-        },
-        {
-          "name": "kt Rolster",
-          "code": "KT",
-          "logo": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-19T08:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-116566854547769720",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 5 周",
-      "title": "EDG vs WE",
-      "teams": [
-        {
-          "name": "EDWARD GAMING",
-          "code": "EDG",
-          "logo": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "score": 2
-        },
-        {
-          "name": "Xi'an Team WE",
-          "code": "WE",
-          "logo": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "score": 0
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-19T09:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-115548147900684685",
@@ -4033,7 +3881,7 @@
           "name": "Xi'an Team WE",
           "code": "WE",
           "logo": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "score": 0
+          "score": 1
         },
         {
           "name": "Beijing JDG Esports",
@@ -4045,7 +3893,7 @@
       "bestOf": 5,
       "startTime": "2026-09-18T09:00:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "completed",
       "tierKey": "regional",
       "tierLabel": "赛区联赛",
       "venue": "",
