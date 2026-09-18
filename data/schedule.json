@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-18T09:59:22.208Z",
-    "total": 128,
+    "generatedAt": "2026-09-18T14:22:31.714Z",
+    "total": 127,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 50,
+      "lol": 49,
       "f1": 60
     },
     "sources": [
@@ -13,7 +13,7 @@
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 50,
+        "count": 49,
         "error": ""
       },
       {
@@ -88,40 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396599",
-          "time": "2026-08-19T14:10:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 十六强",
-          "t1": {
-            "name": "G2",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chae4nf4nfqe2nie4ung.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "Astralis",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ch9oh3n4nfqe2nie4t10.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396601",
-          "time": "2026-08-19T14:20:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 十六强",
-          "t1": {
-            "name": "FUT",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d5j35lsconkpudhr3gk0.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "magic",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d6020ukconkpudhr3kig.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396600",
           "time": "2026-08-19T17:40:00.000Z",
@@ -362,44 +328,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-115548147900684685",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 13 周",
-      "title": "DNS vs BRO",
-      "teams": [
-        {
-          "name": "DN SOOPers",
-          "code": "DNS",
-          "logo": "http://static.lolesports.com/teams/1767340467921_DN_SOOPerslogo_profile.webp",
-          "score": 0
-        },
-        {
-          "name": "HANJIN BRION",
-          "code": "BRO",
-          "logo": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-19T10:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "lol-115548147900619029",
@@ -3661,18 +3589,18 @@
           "t1": {
             "name": "MOUZ",
             "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
-            "score": "0"
+            "score": "2"
           },
           "t2": {
             "name": "NAVI",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/chdgdk74nfqe2nie51g0.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398100",
-          "time": "2026-09-18T12:30:00.000Z",
+          "time": "2026-09-18T13:10:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 败者组 首轮",
           "t1": {
@@ -3683,9 +3611,9 @@
           "t2": {
             "name": "MIBR",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2398101",
@@ -3744,8 +3672,8 @@
           "bo": 3,
           "stage": "淘汰赛 败者组 1/4决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "MOUZ",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
             "score": "0"
           },
           "t2": {
@@ -3887,7 +3815,7 @@
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "logo": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "score": 0
+          "score": 3
         }
       ],
       "bestOf": 5,
@@ -3913,13 +3841,13 @@
       "regionGroup": "中国大陆",
       "tournament": "LPL",
       "stage": "赛区资格赛",
-      "title": "TBD vs IG",
+      "title": "JDG vs IG",
       "teams": [
         {
-          "name": "TBD",
-          "code": "TBD",
-          "logo": "https://static.lolesports.com/teams/team-tbd.png",
-          "score": null
+          "name": "Beijing JDG Esports",
+          "code": "JDG",
+          "logo": "http://static.lolesports.com/teams/1627457924722_29.png",
+          "score": 0
         },
         {
           "name": "Invictus Gaming",
