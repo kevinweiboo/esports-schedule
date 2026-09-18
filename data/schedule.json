@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-18T14:22:31.714Z",
+    "generatedAt": "2026-09-18T17:48:08.842Z",
     "total": 127,
     "byGame": {
       "valorant": 2,
@@ -88,23 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396600",
-          "time": "2026-08-19T17:40:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 十六强",
-          "t1": {
-            "name": "FURIA",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "Aurora",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
-            "score": "1"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396602",
           "time": "2026-08-19T17:55:00.000Z",
@@ -3606,18 +3589,18 @@
           "t1": {
             "name": "magic",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/daaj9hsconkpudhr5c80.png",
-            "score": "0"
+            "score": "1"
           },
           "t2": {
             "name": "MIBR",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
-            "score": "1"
+            "score": "2"
           },
-          "status": "live"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398101",
-          "time": "2026-09-18T15:00:00.000Z",
+          "time": "2026-09-18T16:05:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 胜者组 半决赛",
           "t1": {
@@ -3628,13 +3611,13 @@
           "t2": {
             "name": "Aurora",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2398102",
-          "time": "2026-09-18T17:30:00.000Z",
+          "time": "2026-09-18T18:00:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 胜者组 半决赛",
           "t1": {
@@ -3655,8 +3638,8 @@
           "bo": 3,
           "stage": "淘汰赛 败者组 1/4决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "MIBR",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
             "score": "0"
           },
           "t2": {
