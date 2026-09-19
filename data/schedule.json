@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-19T20:15:56.147Z",
+    "generatedAt": "2026-09-19T22:25:33.874Z",
     "total": 123,
     "byGame": {
       "valorant": 2,
@@ -3442,9 +3442,9 @@
           "t2": {
             "name": "FURIA",
             "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "1"
+            "score": "2"
           },
-          "status": "live"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398107",
@@ -3457,8 +3457,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "FURIA",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
             "score": "0"
           },
           "status": "upcoming"
