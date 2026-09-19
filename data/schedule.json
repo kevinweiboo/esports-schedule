@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-19T11:26:19.140Z",
+    "generatedAt": "2026-09-19T14:42:16.145Z",
     "total": 123,
     "byGame": {
       "valorant": 2,
@@ -88,40 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396606",
-          "time": "2026-08-20T13:30:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 十六强",
-          "t1": {
-            "name": "B8",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cee3h074nfq433414tf0.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "Spirit",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgchcqhll806h1bg2lt0.png",
-            "score": "2"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396605",
-          "time": "2026-08-20T13:35:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 十六强",
-          "t1": {
-            "name": "FaZe",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_d818n3cconkpudhr4jmg.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "Vitality",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
-            "score": "2"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396607",
           "time": "2026-08-20T16:20:00.000Z",
@@ -3437,35 +3403,35 @@
           "t1": {
             "name": "MIBR",
             "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
-            "score": "1"
+            "score": "2"
           },
           "t2": {
             "name": "NRG",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/coe8h0kconklgsjvh5gg.png",
             "score": "0"
           },
-          "status": "live"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398103",
-          "time": "2026-09-19T12:30:00.000Z",
+          "time": "2026-09-19T12:00:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 败者组 1/4决赛",
           "t1": {
             "name": "MOUZ",
             "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
-            "score": "0"
+            "score": "1"
           },
           "t2": {
             "name": "FURIA",
             "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2398105",
-          "time": "2026-09-19T15:00:00.000Z",
+          "time": "2026-09-19T15:20:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 胜者组 决赛",
           "t1": {
@@ -3486,8 +3452,8 @@
           "bo": 3,
           "stage": "淘汰赛 败者组 半决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "MIBR",
+            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgcl8j1ll806h1bg2nn0.png",
             "score": "0"
           },
           "t2": {
@@ -3627,13 +3593,13 @@
           "name": "Beijing JDG Esports",
           "code": "JDG",
           "logo": "http://static.lolesports.com/teams/1627457924722_29.png",
-          "score": 0
+          "score": 1
         },
         {
           "name": "Invictus Gaming",
           "code": "IG",
           "logo": "http://static.lolesports.com/teams/1634762917340_300px-Invictus_Gaming_logo.png",
-          "score": 2
+          "score": 3
         }
       ],
       "bestOf": 5,
