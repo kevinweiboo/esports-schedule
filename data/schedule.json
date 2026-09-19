@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-19T17:50:59.535Z",
+    "generatedAt": "2026-09-19T20:15:56.147Z",
     "total": 123,
     "byGame": {
       "valorant": 2,
@@ -3420,18 +3420,18 @@
           "t1": {
             "name": "Aurora",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
-            "score": "1"
+            "score": "2"
           },
           "t2": {
             "name": "Vitality",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
             "score": "1"
           },
-          "status": "live"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398106",
-          "time": "2026-09-19T18:15:00.000Z",
+          "time": "2026-09-19T18:30:00.000Z",
           "bo": 3,
           "stage": "淘汰赛 败者组 半决赛",
           "t1": {
@@ -3442,9 +3442,9 @@
           "t2": {
             "name": "FURIA",
             "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "0"
+            "score": "1"
           },
-          "status": "upcoming"
+          "status": "live"
         },
         {
           "id": "cs2m-csgo_mc_2398107",
@@ -3452,8 +3452,8 @@
           "bo": 3,
           "stage": "淘汰赛 败者组 决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "Vitality",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
             "score": "0"
           },
           "t2": {
@@ -3469,8 +3469,8 @@
           "bo": 5,
           "stage": "淘汰赛  总决赛",
           "t1": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenhehll806h1bg2rj0.png",
+            "name": "Aurora",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cgrnhlf4nfqe2nie40o0.png",
             "score": "0"
           },
           "t2": {
