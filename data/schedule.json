@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-19T01:27:16.374Z",
+    "generatedAt": "2026-09-19T06:30:16.066Z",
     "total": 127,
     "byGame": {
       "valorant": 2,
@@ -33,9 +33,9 @@
       {
         "key": "f1",
         "label": "F1",
-        "ok": true,
-        "count": 60,
-        "error": ""
+        "ok": false,
+        "count": 0,
+        "error": "This operation was aborted"
       }
     ]
   },
