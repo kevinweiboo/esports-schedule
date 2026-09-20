@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-20T17:35:45.281Z",
+    "generatedAt": "2026-09-20T20:31:28.157Z",
     "total": 117,
     "byGame": {
       "valorant": 2,
@@ -2943,8 +2943,8 @@
       "teams": [],
       "bestOf": null,
       "startTime": "2026-09-16T16:00:00.000Z",
-      "endTime": "2026-09-20T15:59:59.000Z",
-      "status": "live",
+      "endTime": "2026-09-20T19:59:59.000Z",
+      "status": "completed",
       "tierKey": "t1",
       "tierLabel": "S级",
       "venue": "西班牙，巴塞罗那",
@@ -3185,9 +3185,9 @@
           "t2": {
             "name": "Vitality",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
-            "score": "1"
+            "score": "3"
           },
-          "status": "live"
+          "status": "completed"
         }
       ],
       "source": "5eplay"
