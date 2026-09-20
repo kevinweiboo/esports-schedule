@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generatedAt": "2026-09-20T10:00:18.845Z",
-    "total": 119,
+    "generatedAt": "2026-09-20T14:08:34.294Z",
+    "total": 117,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "f1": 60,
-      "lol": 41
+      "f1": 59,
+      "lol": 40
     },
     "sources": [
       {
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 41,
+        "count": 40,
         "error": ""
       },
       {
@@ -34,7 +34,7 @@
         "key": "f1",
         "label": "F1",
         "ok": true,
-        "count": 60,
+        "count": 59,
         "error": ""
       }
     ]
@@ -88,40 +88,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396608",
-          "time": "2026-08-21T11:00:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 八强",
-          "t1": {
-            "name": "FUT",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d5j35lsconkpudhr3gk0.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "MOUZ",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/hz/cec3pf74nfq43340unp0.png",
-            "score": "0"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396609",
-          "time": "2026-08-21T13:50:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 八强",
-          "t1": {
-            "name": "Legacy",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
-            "score": "2"
-          },
-          "t2": {
-            "name": "Falcons",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/cm0k2q4conkqks63d37g.png",
-            "score": "0"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396610",
           "time": "2026-08-21T16:30:00.000Z",
@@ -209,69 +175,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "f1-2026-12-fp1",
-      "game": "f1",
-      "gameLabel": "F1",
-      "league": "Formula 1",
-      "leagueSlug": "f1",
-      "leagueImage": "",
-      "region": "荷兰",
-      "regionGroup": "国际",
-      "tournament": "2026 荷兰大奖赛",
-      "stage": "练习赛 1",
-      "title": "荷兰大奖赛 · 练习赛 1",
-      "teams": [],
-      "bestOf": null,
-      "startTime": "2026-08-21T10:30:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "practice",
-      "tierLabel": "练习赛",
-      "venue": "Circuit Park Zandvoort · Zandvoort",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "jolpica"
-    },
-    {
-      "id": "lol-116566854547769656",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 5 周",
-      "title": "BLG vs TES",
-      "teams": [
-        {
-          "name": "BILIBILI GAMING",
-          "code": "BLG",
-          "logo": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
-          "score": 2
-        },
-        {
-          "name": "TOP ESPORTS",
-          "code": "TES",
-          "logo": "http://static.lolesports.com/teams/1592592064571_TopEsportsTES-01-FullonDark.png",
-          "score": 0
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-21T11:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "f1-2026-12-sprint-quali",
@@ -3302,14 +3205,14 @@
           "t1": {
             "name": "Vitality",
             "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
-            "score": "0"
+            "score": "2"
           },
           "t2": {
             "name": "FURIA",
             "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
             "score": "0"
           },
-          "status": "upcoming"
+          "status": "completed"
         },
         {
           "id": "cs2m-csgo_mc_2398108",
@@ -3322,8 +3225,8 @@
             "score": "0"
           },
           "t2": {
-            "name": "TBD",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgenh8pll806h1bg2reg.png",
+            "name": "Vitality",
+            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/merge_ci8mp6n4nfq3cc4ue9k0.png",
             "score": "0"
           },
           "status": "upcoming"
