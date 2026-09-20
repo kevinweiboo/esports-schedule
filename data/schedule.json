@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generatedAt": "2026-09-20T05:14:54.040Z",
-    "total": 123,
+    "generatedAt": "2026-09-20T10:00:18.845Z",
+    "total": 119,
     "byGame": {
       "valorant": 2,
       "cs2": 16,
-      "lol": 45,
-      "f1": 60
+      "f1": 60,
+      "lol": 41
     },
     "sources": [
       {
         "key": "lol",
         "label": "英雄联盟 LPL/LCK",
         "ok": true,
-        "count": 45,
+        "count": 41,
         "error": ""
       },
       {
@@ -209,158 +209,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "lol-116566854547835300",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 5 周",
-      "title": "TT vs EDG",
-      "teams": [
-        {
-          "name": "THUNDER TALK GAMING",
-          "code": "TT",
-          "logo": "http://static.lolesports.com/teams/TT-FullonDark.png",
-          "score": 0
-        },
-        {
-          "name": "EDWARD GAMING",
-          "code": "EDG",
-          "logo": "http://static.lolesports.com/teams/1631819297476_edg-2021-worlds.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-21T07:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900684673",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 13 周",
-      "title": "BFX vs BRO",
-      "teams": [
-        {
-          "name": "BNK FEARX",
-          "code": "BFX",
-          "logo": "http://static.lolesports.com/teams/1734691810721_BFXfullcolorfordarkbg.png",
-          "score": 2
-        },
-        {
-          "name": "HANJIN BRION",
-          "code": "BRO",
-          "logo": "http://static.lolesports.com/teams/1716454325887_Nowyprojekt.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-21T08:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-116566854547769708",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LPL",
-      "leagueSlug": "lpl",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "中国大陆",
-      "tournament": "LPL",
-      "stage": "第 5 周",
-      "title": "AL vs WE",
-      "teams": [
-        {
-          "name": "Anyone's Legend",
-          "code": "AL",
-          "logo": "http://static.lolesports.com/teams/1641199582689_.png",
-          "score": 1
-        },
-        {
-          "name": "Xi'an Team WE",
-          "code": "WE",
-          "logo": "http://static.lolesports.com/teams/1634763008788_220px-Team_WE_logo.png",
-          "score": 2
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-21T09:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
-    },
-    {
-      "id": "lol-115548147900619037",
-      "game": "lol",
-      "gameLabel": "英雄联盟",
-      "league": "LCK",
-      "leagueSlug": "lck",
-      "leagueImage": "",
-      "region": "",
-      "regionGroup": "韩国",
-      "tournament": "LCK",
-      "stage": "第 13 周",
-      "title": "T1 vs KT",
-      "teams": [
-        {
-          "name": "T1",
-          "code": "T1",
-          "logo": "http://static.lolesports.com/teams/1726801573959_539px-T1_2019_full_allmode.png",
-          "score": 2
-        },
-        {
-          "name": "kt Rolster",
-          "code": "KT",
-          "logo": "http://static.lolesports.com/teams/kt_darkbackground.png",
-          "score": 1
-        }
-      ],
-      "bestOf": 3,
-      "startTime": "2026-08-21T10:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "赛区联赛",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "riot"
     },
     {
       "id": "f1-2026-12-fp1",
