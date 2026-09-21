@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generatedAt": "2026-09-21T13:45:26.238Z",
-    "total": 111,
+    "generatedAt": "2026-09-21T19:08:30.029Z",
+    "total": 109,
     "byGame": {
-      "valorant": 2,
       "cs2": 17,
-      "f1": 57,
-      "lol": 35
+      "lol": 35,
+      "f1": 56,
+      "valorant": 1
     },
     "sources": [
       {
@@ -20,7 +20,7 @@
         "key": "valorant",
         "label": "瓦洛兰特 VCT CN",
         "ok": true,
-        "count": 2,
+        "count": 1,
         "error": ""
       },
       {
@@ -34,37 +34,12 @@
         "key": "f1",
         "label": "F1",
         "ok": true,
-        "count": 57,
+        "count": 56,
         "error": ""
       }
     ]
   },
   "events": [
-    {
-      "id": "valorant-ROnDIFJUFQcvcffT",
-      "game": "valorant",
-      "gameLabel": "瓦洛兰特",
-      "league": "VCT CN",
-      "leagueSlug": "",
-      "leagueImage": "https://files.haojiao.cc/cms/20241127/1732693335808.png",
-      "region": "CN赛区",
-      "regionGroup": "中国大陆",
-      "tournament": "2026 CN联赛 第二赛段",
-      "stage": "CN联赛 第二赛段",
-      "title": "2026 · CN联赛 第二赛段",
-      "teams": [],
-      "bestOf": null,
-      "startTime": "2026-07-08T16:00:00.000Z",
-      "endTime": "2026-08-22T16:00:00.000Z",
-      "status": "completed",
-      "tierKey": "regional",
-      "tierLabel": "VCT CN",
-      "venue": "",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "haojiao"
-    },
     {
       "id": "cs2-csgo_tt_8261",
       "game": "cs2",
@@ -88,40 +63,6 @@
       "prize": "$2,000,000",
       "streams": [],
       "matches": [
-        {
-          "id": "cs2m-csgo_mc_2396611",
-          "time": "2026-08-22T14:00:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 半决赛",
-          "t1": {
-            "name": "FURIA",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/cgcl4u1ll806h1bg2n3g.png",
-            "score": "1"
-          },
-          "t2": {
-            "name": "FUT",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/d5j35lsconkpudhr3gk0.png",
-            "score": "2"
-          },
-          "status": "completed"
-        },
-        {
-          "id": "cs2m-csgo_mc_2396612",
-          "time": "2026-08-22T18:00:00.000Z",
-          "bo": 3,
-          "stage": "淘汰赛 半决赛",
-          "t1": {
-            "name": "Legacy",
-            "logo": "https://oss.5eplay.com/cloudx/p/sport/csgo/team/ck9evp4conkqks63bksg.png",
-            "score": "0"
-          },
-          "t2": {
-            "name": "Spirit",
-            "logo": "https://oss.5eplay.com/sport/csgo/team/merge_cgchcqhll806h1bg2lt0.png",
-            "score": "2"
-          },
-          "status": "completed"
-        },
         {
           "id": "cs2m-csgo_mc_2396613",
           "time": "2026-08-23T08:00:00.000Z",
@@ -158,31 +99,6 @@
         }
       ],
       "source": "5eplay"
-    },
-    {
-      "id": "f1-2026-12-quali",
-      "game": "f1",
-      "gameLabel": "F1",
-      "league": "Formula 1",
-      "leagueSlug": "f1",
-      "leagueImage": "",
-      "region": "荷兰",
-      "regionGroup": "国际",
-      "tournament": "2026 荷兰大奖赛",
-      "stage": "排位赛",
-      "title": "荷兰大奖赛 · 排位赛",
-      "teams": [],
-      "bestOf": null,
-      "startTime": "2026-08-22T14:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "international",
-      "tierLabel": "国际大赛",
-      "venue": "Circuit Park Zandvoort · Zandvoort",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "jolpica"
     },
     {
       "id": "lol-116566854547835296",
