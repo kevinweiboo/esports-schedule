@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-22T12:27:40.691Z",
-    "total": 103,
+    "generatedAt": "2026-09-22T17:12:38.059Z",
+    "total": 102,
     "byGame": {
-      "f1": 56,
       "cs2": 16,
       "lol": 30,
+      "f1": 55,
       "valorant": 1
     },
     "sources": [
@@ -34,37 +34,12 @@
         "key": "f1",
         "label": "F1",
         "ok": true,
-        "count": 56,
+        "count": 55,
         "error": ""
       }
     ]
   },
   "events": [
-    {
-      "id": "f1-2026-12-race",
-      "game": "f1",
-      "gameLabel": "F1",
-      "league": "Formula 1",
-      "leagueSlug": "f1",
-      "leagueImage": "",
-      "region": "荷兰",
-      "regionGroup": "国际",
-      "tournament": "2026 荷兰大奖赛",
-      "stage": "正赛",
-      "title": "荷兰大奖赛 · 正赛",
-      "teams": [],
-      "bestOf": null,
-      "startTime": "2026-08-23T13:00:00.000Z",
-      "endTime": null,
-      "status": "completed",
-      "tierKey": "international",
-      "tierLabel": "国际大赛",
-      "venue": "Circuit Park Zandvoort · Zandvoort",
-      "prize": "",
-      "streams": [],
-      "matches": [],
-      "source": "jolpica"
-    },
     {
       "id": "cs2-csgo_tt_8249",
       "game": "cs2",
