@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-24T03:51:08.696Z",
+    "generatedAt": "2026-09-24T09:07:42.901Z",
     "total": 102,
     "byGame": {
       "cs2": 16,
@@ -2752,7 +2752,7 @@
       "tierKey": "international",
       "tierLabel": "冠军赛",
       "venue": "上海",
-      "prize": "",
+      "prize": "$2,250,000 USD",
       "streams": [],
       "matches": [],
       "source": "haojiao"
@@ -2773,7 +2773,7 @@
       "bestOf": null,
       "startTime": "2026-09-24T08:30:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "completed",
       "tierKey": "practice",
       "tierLabel": "练习赛",
       "venue": "Baku City Circuit · Baku",
