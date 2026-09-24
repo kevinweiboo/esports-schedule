@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-24T09:07:42.901Z",
+    "generatedAt": "2026-09-24T14:20:19.584Z",
     "total": 102,
     "byGame": {
       "cs2": 16,
@@ -2798,7 +2798,7 @@
       "bestOf": null,
       "startTime": "2026-09-24T12:00:00.000Z",
       "endTime": null,
-      "status": "upcoming",
+      "status": "completed",
       "tierKey": "practice",
       "tierLabel": "练习赛",
       "venue": "Baku City Circuit · Baku",
