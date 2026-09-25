@@ -1,26 +1,52 @@
 @echo off
-chcp 65001 >nul 2>&1
 cd /d "%~dp0"
 
-REM æŠŠæœ¬åœ°æ”¹åŠ¨æäº¤å¹¶æ¨é€åˆ° GitHubï¼ŒPages ä¼šåœ¨ä¸€ä¸¤åˆ†é’Ÿåè‡ªåŠ¨æ›´æ–°
-REM ç¬¬ä¸€æ¬¡ç”¨ä¹‹å‰å…ˆè·‘ä¸€æ¬¡ã€Œå‘å¸ƒåˆ°GitHub.batã€å®Œæˆæˆæƒ
+REM °Ñ±¾µØ¸Ä¶¯Ìá½»²¢ÍÆËÍµ½ GitHub£¬Pages »áÔÚÒ»Á½·ÖÖÓºó×Ô¶¯¸üĞÂ
+REM µÚÒ»´ÎÓÃÖ®Ç°ÏÈÅÜÒ»´Î¡¸·¢²¼µ½GitHub.bat¡¹Íê³ÉÊÚÈ¨
+REM
+REM ÎªÊ²Ã´±ØĞë¡¸ÏÈÀ­ÔÙÍÆ¡¹£º
+REM   GitHub Actions Ã¿ 3 Ğ¡Ê±»á×Ô¶¯Íù main ÍÆÒ»´ÎÊı¾İ£¨chore: refresh schedule data£©¡£
+REM   ±¾µØ²»ÏÈÍ¬²½¾ÍÖ±½Ó push£¬»á±»¾Ü£¨non-fast-forward£©£¬
+REM   ¶øÇÒÒÔÇ°Ö»ÌáÊ¾¡¸¿ÉÄÜÎ´ÊÚÈ¨¡¹£¬ºÜÈİÒ×ÈÃÈËÒÔÎªÍÆ³É¹¦ÁË£¬´úÂë¾ÍÒ»Ö±¿¨ÔÚ±¾µØ¡£
+REM
+REM Êı¾İÎÄ¼ş³åÍ»Ò»ÂÉÒÔÏßÉÏÎª×¼£¨-X ours£ºrebase Ê± ours = ÏßÉÏÄÇ·İ£©£º
+REM   ÏßÉÏÊı¾İÊÇ Actions Ã¿ 3 Ğ¡Ê±ÏÖ×¥µÄ£¬±È±¾µØµÄĞÂ£¬¸²¸Çµô±¾µØÍêÈ«Ã»¹ØÏµ¡£
+REM   ´úÂëÎÄ¼ş²»»á³åÍ»£¨Actions Ö»¶¯ data/£©¡£
 
 git status --short
 echo.
 
-set /p MSG=æäº¤è¯´æ˜ï¼ˆç›´æ¥å›è½¦ç”¨é»˜è®¤ã€Œæ›´æ–°æ•°æ®ã€ï¼‰: 
-if "%MSG%"=="" set MSG=æ›´æ–°æ•°æ®
+set /p MSG=Ìá½»ËµÃ÷£¨Ö±½Ó»Ø³µÓÃÄ¬ÈÏ¡¸¸üĞÂÊı¾İ¡¹£©: 
+if "%MSG%"=="" set MSG=¸üĞÂÊı¾İ
 
 git add -A
 git commit -m "%MSG%"
-if errorlevel 1 echo ï¼ˆæ²¡æœ‰éœ€è¦æäº¤çš„æ”¹åŠ¨ï¼‰
+if errorlevel 1 echo £¨Ã»ÓĞĞèÒªÌá½»µÄ¸Ä¶¯£©
+echo.
 
+echo [1/3] À­È¡ÏßÉÏ¸Ä¶¯£¨Êı¾İÒÔÏßÉÏÎª×¼£©...
+git fetch origin
+git pull --rebase -X ours origin main
+if errorlevel 1 (
+  echo.
+  echo ºÏ²¢Ê§°Ü£¬ĞèÒªÊÖ¶¯´¦Àí£º
+  echo     git status              ²é¿´³åÍ»ÎÄ¼ş
+  echo     git rebase --continue   ½â¾öºó¼ÌĞø
+  echo     git rebase --abort      ·ÅÆú±¾´ÎºÏ²¢
+  pause
+  exit /b 1
+)
+echo.
+
+echo [2/3] ÍÆËÍµ½ GitHub ...
 git push
 if errorlevel 1 (
   echo.
-  echo æ¨é€å¤±è´¥ã€‚è‹¥æç¤ºæœªæˆæƒï¼Œå…ˆè¿è¡Œä¸€æ¬¡ã€Œå‘å¸ƒåˆ°GitHub.batã€ã€‚
+  echo ÍÆËÍÊ§°Ü¡£ÈôÌáÊ¾Î´ÊÚÈ¨£¬ÏÈÔËĞĞÒ»´Î¡¸·¢²¼µ½GitHub.bat¡¹¡£
+  pause
+  exit /b 1
 )
-
 echo.
-echo å®Œæˆã€‚ç«™ç‚¹é€šå¸¸åœ¨ 1~2 åˆ†é’Ÿå†…æ›´æ–°ï¼šhttps://kevinweiboo.github.io/esports-schedule/
+
+echo [3/3] Íê³É¡£Õ¾µãÍ¨³£ÔÚ 1~2 ·ÖÖÓÄÚ¸üĞÂ£ºhttps://kevinweiboo.github.io/esports-schedule/
 pause
