@@ -57,8 +57,11 @@ settled.forEach((res, i) => {
   const def = SOURCES[i];
   if (res.status === 'fulfilled') {
     fresh.push(...res.value);
+    // 赛事数和对局明细数都要打印：只报赛事数时，「赛事抓到了但一场明细都没有」
+    // 这种静默退化在日志里完全看不出来（瓦洛兰特就这么坏了几周）。
+    const mcount = res.value.reduce((s, e) => s + (e.matches?.length ?? 0), 0);
     sources.push({ key: def.key, label: def.label, ok: true, count: res.value.length, error: '' });
-    console.log(`  ok   ${def.label.padEnd(18)} ${res.value.length} 场`);
+    console.log(`  ok   ${def.label.padEnd(18)} ${res.value.length} 场赛事` + (mcount ? ` / ${mcount} 场对局明细` : ' / ⚠ 无对局明细'));
   } else {
     failedGames.add(def.game);
     const msg = res.reason?.message ?? String(res.reason);

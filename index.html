@@ -141,6 +141,8 @@ input[type=search]{min-width:170px}
 .card.open .mlist{display:block}
 .mrow{display:grid;grid-template-columns:64px 1fr auto 1fr 150px;gap:8px;align-items:center;
   padding:6px 4px;border-radius:6px;font-size:13px}
+/* 跨天赛事（赛事级数据）的对局要带上日期，否则一列 17:00 分不清是哪天的 */
+.mrow.mut{grid-template-columns:92px 1fr auto 1fr 150px}
 .mrow:hover{background:var(--hover)}
 .mrow+.mrow{border-top:1px solid #22222e}
 .mrow .mt{color:var(--tx2);font-variant-numeric:tabular-nums;font-size:12px;text-align:right}
@@ -172,6 +174,7 @@ input[type=search]{min-width:170px}
   .c-time{text-align:left}
   .flabel{width:auto}
   .mrow{grid-template-columns:52px 1fr auto 1fr}
+  .mrow.mut{grid-template-columns:74px 1fr auto 1fr}
   .mstage{display:none}}
 </style>
 </head>
@@ -248,6 +251,8 @@ input[type=search]{min-width:170px}
     open: {}   // 展开的赛事明细 {eventId:true}
   };
   var TIER_ORDER = ['Major','S+','S级','国际大赛','大师赛','冠军赛','VCT CN','赛区联赛','练习赛'];
+  // 对局明细的来源，跟着游戏走（之前写死成 5EPlay，瓦洛兰特展开后会张冠李戴）
+  var MATCH_SRC = { cs2:'5EPlay', valorant:'号角', lol:'Riot', f1:'Jolpica' };
 
   var $ = function(id){ return document.getElementById(id); };
 
@@ -372,6 +377,8 @@ input[type=search]{min-width:170px}
 
   // ---------- 比赛明细（CS2 具体对局）----------
   function mlogo(t){
+    // 还没确定对手时不画占位徽标，否则会出现「TBD TBD」
+    if (!t.logo && (!t.name || t.name === 'TBD')) return '';
     return t.logo
       ? '<img src="'+esc(t.logo)+'" alt="" loading="lazy">'
       : '<span class="ph">'+esc((t.name||'?').slice(0,3))+'</span>';
@@ -379,6 +386,8 @@ input[type=search]{min-width:170px}
   function matchListHtml(e){
     var ms = e.matches || [];
     if (!ms.length) return '';
+    // 跨天赛事（冠军赛这种 24 天的）光看 HH:MM 分不清是哪天，带上日期
+    var mut = isRange(e);
     // 未来比赛排前，其次进行中，再按时间
     var rows = ms.map(function(m){
       var st = m.status === 'completed' ? 'completed' :
@@ -391,8 +400,8 @@ input[type=search]{min-width:170px}
       var cls2 = has ? (Number(m.t2.score) > Number(m.t1.score) ? 'win' :
                  (Number(m.t2.score) < Number(m.t1.score) ? 'lose' : '')) : '';
       var live = st === 'live' ? '<span class="mlive"></span>' : '';
-      return '<div class="mrow'+(st==='completed'?' mdone':'')+'">'
-        + '<span class="mt">'+fmtTime(m.time)+'</span>'
+      return '<div class="mrow'+(mut?' mut':'')+(st==='completed'?' mdone':'')+'">'
+        + '<span class="mt">'+(mut?fmtDayNum(m.time)+' ':'')+fmtTime(m.time)+'</span>'
         + '<span class="mteam '+cls+'">'+mlogo(m.t1)+'<span>'+esc(m.t1.name||'TBD')+'</span></span>'
         + '<span class="msc'+(has?'':' ns')+'">'+(st==='live'?live:'')+sc+'</span>'
         + '<span class="mteam r '+cls2+'"><span>'+esc(m.t2.name||'TBD')+'</span>'+mlogo(m.t2)+'</span>'
@@ -400,7 +409,7 @@ input[type=search]{min-width:170px}
         + '</div>';
     }).join('');
     return '<div class="mlist">' + rows +
-      '<div class="mfoot">共 '+ms.length+' 场 · 数据来源 5EPlay</div></div>';
+      '<div class="mfoot">共 '+ms.length+' 场 · 数据来源 '+esc(MATCH_SRC[e.game]||'赛事官网')+'</div></div>';
   }
 
   function cardHtml(e){
