@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-25T11:41:55.068Z",
-  "total": 101,
+  "generatedAt": "2026-09-25T15:02:43.580Z",
+  "total": 104,
   "byGame": {
+    "valorant": 4,
     "cs2": 16,
     "lol": 29,
-    "f1": 55,
-    "valorant": 1
+    "f1": 55
   },
   "sources": [
     {
@@ -17,9 +17,9 @@
     },
     {
       "key": "valorant",
-      "label": "瓦洛兰特 VCT CN",
+      "label": "瓦洛兰特 VCT",
       "ok": true,
-      "count": 1,
+      "count": 4,
       "error": ""
     },
     {
