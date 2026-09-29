@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T09:23:07.464Z",
-  "total": 96,
+  "generatedAt": "2026-09-29T17:27:53.563Z",
+  "total": 95,
   "byGame": {
-    "valorant": 4,
+    "valorant": 3,
     "cs2": 16,
     "lol": 21,
     "f1": 55
@@ -19,7 +19,7 @@
       "key": "valorant",
       "label": "瓦洛兰特 VCT",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "error": ""
     },
     {
