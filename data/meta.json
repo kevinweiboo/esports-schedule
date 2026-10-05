@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-05T13:18:48.146Z",
-  "total": 84,
+  "generatedAt": "2026-10-05T21:46:16.700Z",
+  "total": 83,
   "byGame": {
     "valorant": 3,
     "cs2": 17,
-    "f1": 52,
-    "lol": 12
+    "lol": 12,
+    "f1": 51
   },
   "sources": [
     {
@@ -33,7 +33,7 @@
       "key": "f1",
       "label": "F1",
       "ok": true,
-      "count": 52,
+      "count": 51,
       "error": ""
     }
   ]
