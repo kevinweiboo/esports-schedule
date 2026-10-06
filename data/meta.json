@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-06T04:20:21.753Z",
-  "total": 83,
+  "generatedAt": "2026-10-06T12:35:20.448Z",
+  "total": 79,
   "byGame": {
-    "valorant": 3,
+    "valorant": 2,
     "cs2": 17,
-    "lol": 12,
-    "f1": 51
+    "f1": 51,
+    "lol": 9
   },
   "sources": [
     {
       "key": "lol",
       "label": "英雄联盟 LPL/LCK",
       "ok": true,
-      "count": 12,
+      "count": 9,
       "error": ""
     },
     {
       "key": "valorant",
       "label": "瓦洛兰特 VCT",
       "ok": true,
-      "count": 3,
+      "count": 2,
       "error": ""
     },
     {
