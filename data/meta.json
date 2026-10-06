@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-06T12:35:20.448Z",
-  "total": 79,
+  "generatedAt": "2026-10-06T19:56:34.605Z",
+  "total": 76,
   "byGame": {
-    "valorant": 2,
-    "cs2": 17,
-    "f1": 51,
-    "lol": 9
+    "lol": 9,
+    "cs2": 16,
+    "f1": 50,
+    "valorant": 1
   },
   "sources": [
     {
@@ -19,21 +19,21 @@
       "key": "valorant",
       "label": "瓦洛兰特 VCT",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": ""
     },
     {
       "key": "cs2",
       "label": "CS2 S级/S+/Major",
       "ok": true,
-      "count": 17,
+      "count": 16,
       "error": ""
     },
     {
       "key": "f1",
       "label": "F1",
       "ok": true,
-      "count": 51,
+      "count": 50,
       "error": ""
     }
   ]
