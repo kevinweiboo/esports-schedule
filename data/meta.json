@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-07T00:18:17.352Z",
-  "total": 76,
+  "generatedAt": "2026-10-07T09:38:54.263Z",
+  "total": 75,
   "byGame": {
-    "lol": 9,
     "cs2": 16,
+    "lol": 8,
     "f1": 50,
     "valorant": 1
   },
@@ -12,7 +12,7 @@
       "key": "lol",
       "label": "英雄联盟 LPL/LCK",
       "ok": true,
-      "count": 9,
+      "count": 8,
       "error": ""
     },
     {
