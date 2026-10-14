@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T08:18:22.004Z",
-  "total": 64,
+  "generatedAt": "2026-10-14T14:15:47.260Z",
+  "total": 66,
   "byGame": {
-    "cs2": 15,
+    "cs2": 17,
     "lol": 3,
     "valorant": 1,
     "f1": 45
@@ -26,7 +26,7 @@
       "key": "cs2",
       "label": "CS2 S级/S+/Major",
       "ok": true,
-      "count": 15,
+      "count": 17,
       "error": ""
     },
     {
