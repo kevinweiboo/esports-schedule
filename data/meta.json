@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-17T07:25:38.732Z",
+  "generatedAt": "2026-10-17T12:38:25.858Z",
   "total": 67,
   "byGame": {
-    "cs2": 18,
-    "lol": 3,
+    "cs2": 19,
+    "lol": 2,
     "valorant": 1,
     "f1": 45
   },
@@ -12,7 +12,7 @@
       "key": "lol",
       "label": "英雄联盟 LPL/LCK",
       "ok": true,
-      "count": 3,
+      "count": 2,
       "error": ""
     },
     {
@@ -26,7 +26,7 @@
       "key": "cs2",
       "label": "CS2 S级/S+/Major",
       "ok": true,
-      "count": 18,
+      "count": 19,
       "error": ""
     },
     {
