@@ -1,6 +1,15 @@
 @echo off
 cd /d "%~dp0"
 
+for /f "delims=" %%b in ('git rev-parse --abbrev-ref HEAD') do set "BRANCH=%%b"
+if /i not "%BRANCH%"=="main" (
+  echo.
+  echo 当前分支是 %BRANCH%，不是 main。为避免误推，已停止。
+  echo 请切回 main 后再运行，或手动执行：git push origin %BRANCH%
+  pause
+  exit /b 1
+)
+
 REM 把本地改动提交并推送到 GitHub，Pages 会在一两分钟后自动更新
 REM 第一次用之前先跑一次「发布到GitHub.bat」完成授权
 REM

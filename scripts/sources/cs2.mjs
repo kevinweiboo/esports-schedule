@@ -74,6 +74,23 @@ function mapMatch(m) {
   const ts = Number(mc.plan_ts) * 1000;
   const statusNum = Number(st.status) || 0;
   const boNum = parseInt(mc.format, 10);
+
+  // 每张地图的比分（完赛/进行中才有），以及 5EPlay 的赛前胜率百分比
+  const maps = (Array.isArray(st.bout_states) ? st.bout_states : [])
+    .filter((b) => b && b.map_name)
+    .map((b) => ({
+      name: String(b.map_name),
+      t1: b.t1_score ?? '',
+      t2: b.t2_score ?? '',
+      result: b.result || '',
+      status: Number(b.status) || 0
+    }));
+  const p1 = st.t1_odds_percent;
+  const p2 = st.t2_odds_percent;
+  const hasProb = p1 != null && p1 !== '' && p2 != null && p2 !== ''
+    && Number.isFinite(Number(p1)) && Number.isFinite(Number(p2))
+    && Number(p1) + Number(p2) > 0;
+
   return {
     id: `cs2m-${mc.id}`,
     time: ts ? new Date(ts).toISOString() : null,
@@ -81,6 +98,10 @@ function mapMatch(m) {
     stage: mc.tt_stage_desc || mc.round_name || '',
     t1: { name: t1.disp_name || '', logo: t1.logo || '', score: st.t1_score ?? '' },
     t2: { name: t2.disp_name || '', logo: t2.logo || '', score: st.t2_score ?? '' },
+    maps,
+    prob1: hasProb ? Number(p1) : null,
+    prob2: hasProb ? Number(p2) : null,
+    sourceUrl: `https://event.5eplay.com/csgo/matches/${mc.id}`,
     status: statusNum === 2 ? 'completed' : statusNum === 1 ? 'live' : 'upcoming'
   };
 }

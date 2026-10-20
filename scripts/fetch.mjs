@@ -21,7 +21,7 @@ const DRY = process.argv.includes('--dry-run');
 const WRITE_JSON = process.argv.includes('--json') || process.env.WRITE_JSON === '1';
 
 const SOURCES = [
-  { key: 'lol', label: '英雄联盟 LPL/LCK', game: 'lol', run: () => fetchLol() },
+  { key: 'lol', label: '英雄联盟 LPL/LCK/国际赛', game: 'lol', run: () => fetchLol() },
   { key: 'valorant', label: '瓦洛兰特 VCT', game: 'valorant', run: () => fetchValorant() },
   { key: 'cs2', label: 'CS2 S级/S+/Major', game: 'cs2', run: () => fetchCs2() },
   { key: 'f1', label: 'F1', game: 'f1', run: () => fetchF1() }
@@ -47,6 +47,11 @@ async function previousEvents() {
 
 console.log(`开始抓取 ${new Date().toISOString()}`);
 
+// 上一次的条数，用来识别「源静默返回 0 条」这种退化
+const prev = await previousEvents();
+const prevByGame = {};
+for (const e of prev) prevByGame[e.game] = (prevByGame[e.game] ?? 0) + 1;
+
 const settled = await Promise.allSettled(SOURCES.map((s) => s.run()));
 
 const fresh = [];
@@ -60,8 +65,12 @@ settled.forEach((res, i) => {
     // 赛事数和对局明细数都要打印：只报赛事数时，「赛事抓到了但一场明细都没有」
     // 这种静默退化在日志里完全看不出来（瓦洛兰特就这么坏了几周）。
     const mcount = res.value.reduce((s, e) => s + (e.matches?.length ?? 0), 0);
-    sources.push({ key: def.key, label: def.label, ok: true, count: res.value.length, error: '' });
-    console.log(`  ok   ${def.label.padEnd(18)} ${res.value.length} 场赛事` + (mcount ? ` / ${mcount} 场对局明细` : ' / ⚠ 无对局明细'));
+    const was = prevByGame[def.game] ?? 0;
+    const degraded = res.value.length === 0 && was > 0;
+    sources.push({ key: def.key, label: def.label, ok: true, degraded, count: res.value.length, error: '' });
+    console.log(`  ${degraded ? 'WARN' : 'ok  '} ${def.label.padEnd(22)} ${res.value.length} 场赛事`
+      + (mcount ? ` / ${mcount} 场对局明细` : ' / ⚠ 无对局明细')
+      + (degraded ? `（上次 ${was} 条，本次归零）` : ''));
   } else {
     failedGames.add(def.game);
     const msg = res.reason?.message ?? String(res.reason);
@@ -70,7 +79,6 @@ settled.forEach((res, i) => {
   }
 });
 
-const prev = await previousEvents();
 const keptStale = failedGames.size ? prev.filter((e) => failedGames.has(e.game)) : [];
 if (keptStale.length) {
   console.warn(`  保留上次缓存 ${keptStale.length} 场（对应数据源本次失败）`);
@@ -82,6 +90,7 @@ const byGame = {};
 for (const e of events) byGame[e.game] = (byGame[e.game] ?? 0) + 1;
 
 const meta = {
+  schemaVersion: 2,
   generatedAt: new Date().toISOString(),
   total: events.length,
   byGame,

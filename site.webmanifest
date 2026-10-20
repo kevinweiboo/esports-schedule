@@ -1,0 +1,19 @@
+{
+  "name": "综合赛程",
+  "short_name": "赛程",
+  "description": "英雄联盟、瓦洛兰特、CS2、F1 的综合赛程与赛果",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0b0f",
+  "theme_color": "#0a0b0f",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

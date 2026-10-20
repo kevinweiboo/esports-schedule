@@ -1,23 +1,27 @@
 {
-  "generatedAt": "2026-10-20T02:59:10.611Z",
-  "total": 65,
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T06:47:58.557Z",
+  "total": 111,
   "byGame": {
     "cs2": 19,
     "valorant": 1,
-    "f1": 45
+    "f1": 45,
+    "lol": 46
   },
   "sources": [
     {
       "key": "lol",
-      "label": "英雄联盟 LPL/LCK",
+      "label": "英雄联盟 LPL/LCK/国际赛",
       "ok": true,
-      "count": 0,
+      "degraded": false,
+      "count": 46,
       "error": ""
     },
     {
       "key": "valorant",
       "label": "瓦洛兰特 VCT",
       "ok": true,
+      "degraded": false,
       "count": 1,
       "error": ""
     },
@@ -25,6 +29,7 @@
       "key": "cs2",
       "label": "CS2 S级/S+/Major",
       "ok": true,
+      "degraded": false,
       "count": 19,
       "error": ""
     },
@@ -32,6 +37,7 @@
       "key": "f1",
       "label": "F1",
       "ok": true,
+      "degraded": false,
       "count": 45,
       "error": ""
     }

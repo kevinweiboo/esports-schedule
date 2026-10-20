@@ -8,14 +8,14 @@
 
 | 项目 | 范围 | 数据源 |
 |---|---|---|
-| 英雄联盟 | LPL、LCK | Riot esports API（社区公开 key） |
+| 英雄联盟 | LPL、LCK、Worlds、MSI、First Stand | Riot esports API（社区公开 key） |
 | 瓦洛兰特 | VCT CN 联赛 + 大师赛 + 全球冠军赛 | 号角（web.haojiao.cc） |
 | CS2 | 仅 S级 / S+ / Major 三个级别 | 5eplay（event.5eplay.com） |
 | F1 | 全赛季各 session（练习 / 排位 / 冲刺 / 正赛） | Jolpica（Ergast 兼容） |
 
 改关注范围只需要动 [`scripts/config.mjs`](scripts/config.mjs)：
 
-- 加 S 赛 / MSI → `LOL_LEAGUES` 里追加 `'worlds'`、`'msi'`
+- 增删英雄联盟赛事 → `LOL_LEAGUES`（默认已含 `'worlds'`、`'msi'`、`'first_stand'`）
 - 改 CS2 级别 → `CS_GRADES`（默认 `'1'`=Major、`'7'`=S+、`'2'`=S级）
 - 改瓦洛兰特赛事 → `VAL_SERIES_NAME` / `VAL_GROUP_PATTERNS`
 
@@ -34,7 +34,7 @@ node scripts/serve.mjs --no-open    # 不自动打开浏览器
 node scripts/fetch.mjs              # 只抓取数据，不起服务
 ```
 
-也可以直接双击 `index.html`（页面通过 `<script src="data/schedule.js">` 读数据，`file://` 下同样能看，只是「更新」按钮不会重新抓取）。
+也可以直接双击 `index.html`（页面通过 `<script src="data/schedule.js">` 读数据，`file://` 下同样能看，只是「检查更新」按钮不会重新抓取）。
 
 ### 服务为什么会自动退出
 
@@ -47,10 +47,27 @@ node scripts/fetch.mjs              # 只抓取数据，不起服务
 
 ### 更新按钮
 
-页面右上角的**「更新」**按钮就是刷新入口，不设自动刷新。
+页面右上角的按钮就是刷新入口，不设自动刷新。
 
-- 通过 `serve.mjs` 打开（http）→ 点更新会**真的跑一次抓取**，几秒后自动刷新列表
-- 直接双击打开（file）→ 按钮只能重新载入已生成的数据文件；要重新抓取就在项目目录执行 `node scripts/fetch.mjs`
+- 通过 `serve.mjs` 打开（http，localhost）→ 按钮显示「更新数据」，点它会**真的跑一次抓取**，几秒后自动刷新列表
+- 直接双击打开（file）或静态托管 → 按钮显示「检查更新」，只能重新载入已生成的数据文件；要重新抓取就在项目目录执行 `node scripts/fetch.mjs`
+
+### 页面功能
+
+- **Now Bar**：今天有没有比赛、最近一场倒计时；有直播时置顶直播场次
+- **7 天周条**：前后翻周，每天显示场次数；点某天只看当天
+- **议程**：赛事（跨天区间）和场次（单点时间）分开渲染；跨天赛事在赛事期间每天显示「第 N/M 天」
+- **空档压缩**：连续没有比赛的日子收成一条说明，不会静默跳过
+- **F1 周末**：一个大奖赛聚合成一行，展开是场次时间轴
+- **待定对阵**：双方未定的对局折叠成一行，按需展开时间
+- **CS2 对局详情**：展开后显示每张地图比分、5EPlay 胜率参考条，以及「数据 ↗」外链（选手/地图池/H2H）
+- **日期选择**：周条右侧可直接跳到某一天；过去日期自动切赛果，未来日期切赛程
+- **赛事筛选**：点赛事名只看这个赛事，工具栏显示当前赛事 chip，可一键清除
+- **实时比分**：CS2（5EPlay）和 LoL（Riot `getLive`）在有比赛时每 30 秒轮询，只更新比分/地图/胜率；
+  无比赛时不发请求，退到 3 分钟检查一次；页头显示「实时 · N」
+- **我的关注**：点队伍名即可关注，侧栏显示每队下一场（localStorage，无需登录）
+- **赛果**：按结束日归档，胜方高亮，能从决赛对局推导冠军
+- **导出 / 分享**：导出未来 7 天的 `.ics`；复制带筛选条件的当前视图链接
 
 ### 可选：定时自动抓取
 
@@ -63,12 +80,18 @@ node scripts/fetch.mjs              # 只抓取数据，不起服务
 ## 目录说明
 
 ```
-index.html              单文件页面（内联 CSS + JS，零构建）
+index.html              页面骨架（零构建，经典 script）
+assets/style.css        设计系统与响应式样式
+assets/app.js           数据建模、渲染与交互
+assets/live.js          CS2/LoL 实时比分数据层（纯逻辑 + fetch）
+assets/icon.svg         站点图标
+assets/og.png           分享卡（1200×630）
+site.webmanifest        PWA manifest（http(s) 下由 app.js 注入）
 data/schedule.js        抓取结果，页面唯一读取的数据文件（http / file:// 通用）
 data/meta.json          更新时间、各数据源状态
 scripts/fetch.mjs       主抓取入口（加 --json 可额外导出 schedule.json 给其它程序用）
 scripts/config.mjs      关注范围配置
-scripts/normalize.mjs   统一 schema 与分类
+scripts/normalize.mjs   统一 schema 与分类（状态按开始 + 时长/结束时间计算）
 scripts/serve.mjs       零依赖本地服务 + /api/refresh
 scripts/sources/        四个数据源模块，每个都能单独运行调试
 ```
@@ -81,6 +104,12 @@ node scripts/sources/lol.mjs --leagues   # 列出全部可用联赛 slug
 node scripts/sources/valorant.mjs        # 瓦洛兰特（号角）
 node scripts/sources/cs2.mjs             # CS2（5eplay）
 node scripts/sources/f1.mjs              # F1（Jolpica）
+```
+
+数据层回归测试：
+
+```bash
+node --test tests/*.test.mjs
 ```
 
 ## 两个中文数据源的接口说明
@@ -108,6 +137,9 @@ GET https://app.5eplay.com/api/tournament/session_list
 - `grades` 逗号分隔（如 `1,7,2`）；**按时间倒序**返回，翻到早于窗口起点即可停
 - 时间字段 `mc_info.plan_ts` 是**秒级**时间戳
 - 每条含 `t1_info` / `t2_info`（队名、logo）、`state.t1_score` / `t2_score`、`format`（BO 数）、`tt_stage_desc`（阶段）、`tt_info`（所属赛事，`id` 形如 `csgo_tt_8266`，可与赛事级数据对上）
+- `state.bout_states[]`：每张地图的 `map_name` / `t1_score` / `t2_score` / `result`，进行中或已结束才有
+- `state.t1_odds_percent` / `t2_odds_percent`：胜率百分比（赔率换算），做展示时建议标注来源
+- 详情页：`https://event.5eplay.com/csgo/matches/{mc_info.id}`，本次用它做「数据 ↗」外链
 
 **号角**（需签名头）
 ```
@@ -125,7 +157,15 @@ body: {"game_id":"t2Ud5pOQlscKLbRC","platform":"web","page":1,"page_size":200}
 
 ## 已知限制
 
-- CS2 已有**具体比赛明细**（时间 / 队伍 / 比分 / BO / 阶段），在赛事卡片上点击展开；瓦洛兰特仍是赛事级区间数据（号角接口没有逐场赛程）
+- CS2、瓦洛兰特有**具体对局明细**（时间 / 队伍 / 比分 / BO / 阶段），在赛事行上展开
+- CS2 的地图比分、胜率参考来自 5EPlay 的 `session_list`；胜率是赔率换算的参考值，不是实时模型，展示时标了来源
+- 地图比分只有在进行中/已结束的对局才有；远期赛事只有系列赛程
+- 实时比分只覆盖 CS2 和 LoL；瓦洛兰特的号角接口 OPTIONS 返回 403，F1 没有公开 live timing，仍按 3 小时数据刷新
+- 实时轮询只在比赛窗口发请求：开赛后最多 3 分钟进入 30 秒轮询；比分源连续失败会退避 5 分钟
+- Riot `getLive` 用社区公开 key；若被限流，LoL 实时会暂停，静态赛程不受影响
+- WorkBuddy 的预览面板有 CSP，会拦掉外部连接；实时比分请在 GitHub Pages 或 `serve.mjs` 下看
 - 5eplay 的逐场比赛只覆盖近期（未开始的对局一般只放出几天内的），远期赛事只有起止区间
+- 英雄联盟只有场次级数据（对阵双方），没有单局比分；Riot 接口的比赛状态由前端按开始时间推断
 - 抓取窗口默认最近 30 天 + 未来 180 天，改 `config.mjs` 的 `WINDOW`
-- 「进行中」由起止时间推断，卡片上的比分在点「更新」后刷新
+- 「进行中」按开始时间 + 结束时间/时长推断；数据每 3 小时更新一次，比分以最近一次抓取为准
+- 赛果里的「冠军」是从阶段名含「决赛」的最后一场对局推导的，赛事方没提供正式冠军字段时可能为空

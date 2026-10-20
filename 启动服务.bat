@@ -7,11 +7,13 @@ rem  Close this window (or press Ctrl+C) to stop the server.
 rem ============================================================
 cd /d "%~dp0"
 
-set NODE=C:\Users\kevin\.workbuddy\binaries\node\versions\22.22.2-2\node.exe
+set "NODE="
+where node >nul 2>nul && set "NODE=node"
+if not defined NODE if exist "C://Users//kevin//.workbuddy//binaries//node//versions//22.22.2-6//node.exe" set "NODE=C://Users//kevin//.workbuddy//binaries//node//versions//22.22.2-6//node.exe"
 
-if not exist "%NODE%" (
-  echo [!] Node not found: %NODE%
-  echo     Edit this file and set NODE to your node.exe path.
+if not defined NODE (
+  echo [!] Node not found in PATH.
+  echo     Install Node.js or edit this file and set NODE to your node.exe path.
   echo.
   pause
   exit /b 1

@@ -7,10 +7,9 @@ export const WINDOW = {
 };
 
 // ---------- 英雄联盟 ----------
-// 当前只要 LPL 和 LCK。
-// 想加 S 赛 / MSI / First Stand，往数组里追加 slug 即可：'worlds', 'msi', 'first_stand'
+// 联赛 + 国际赛。只写 lpl/lck 的话，10 月两大赛区收官后整站几乎看不到 LoL。
 // 可用 slug 可运行 `node scripts/sources/lol.mjs --leagues` 查看
-export const LOL_LEAGUES = ['lpl', 'lck'];
+export const LOL_LEAGUES = ['lpl', 'lck', 'worlds', 'msi', 'first_stand'];
 
 // ---------- CS2（数据源：5eplay）----------
 // https://event.5eplay.com/csgo/events 的赛事分级码表

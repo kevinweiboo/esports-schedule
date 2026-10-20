@@ -25,6 +25,10 @@ jobs:
         with:
           node-version: '22'
 
+      # 数据层回归（状态机 / 时长 / TBD），失败就不写数据
+      - name: Test data layer
+        run: node --test tests/*.test.mjs
+
       # 所有数据源都不需要 token。下面两个是可选的：不配就用 config.mjs 里的默认值。
       # 如果某个源在境外 IP 下失败，脚本会保留上一次的数据，不会让页面变空。
       - name: Fetch schedule

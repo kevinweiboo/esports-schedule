@@ -51,6 +51,7 @@ function toEvent(e) {
     teams,
     bestOf: match.strategy?.count ?? null,
     startTime: new Date(e.startTime).toISOString(),
+    durationMin: 240,
     status: mapStatus(e.state),
     venue: '',
     streams: [],

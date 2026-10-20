@@ -49,16 +49,18 @@ const COUNTRY_CN = {
   UAE: '阿联酋', Argentina: '阿根廷', France: '法国', Germany: '德国'
 };
 
-// Ergast 字段 -> [中文名, sessionKey, tierKey]
+// Ergast 字段 -> [中文名, sessionKey, tierKey, 预计时长(分钟)]
+// 时长用于判断「进行中」：只看开始时间的话，正赛一发车就会被当成已结束。
 const SESSIONS = [
-  ['FirstPractice', '练习赛 1', 'fp1', 'practice'],
-  ['SecondPractice', '练习赛 2', 'fp2', 'practice'],
-  ['ThirdPractice', '练习赛 3', 'fp3', 'practice'],
-  ['SprintQualifying', '冲刺排位赛', 'sprint-quali', 'international'],
-  ['SprintShootout', '冲刺排位赛', 'sprint-shootout', 'international'],
-  ['Sprint', '冲刺赛', 'sprint', 'international'],
-  ['Qualifying', '排位赛', 'quali', 'international']
+  ['FirstPractice', '练习赛 1', 'fp1', 'practice', 60],
+  ['SecondPractice', '练习赛 2', 'fp2', 'practice', 60],
+  ['ThirdPractice', '练习赛 3', 'fp3', 'practice', 60],
+  ['SprintQualifying', '冲刺排位赛', 'sprint-quali', 'international', 30],
+  ['SprintShootout', '冲刺排位赛', 'sprint-shootout', 'international', 30],
+  ['Sprint', '冲刺赛', 'sprint', 'international', 60],
+  ['Qualifying', '排位赛', 'quali', 'international', 60]
 ];
+const RACE_MINUTES = 120;
 
 function sessionTime(s) {
   if (!s || !s.date) return null;
@@ -96,7 +98,7 @@ export async function fetchF1() {
         source: 'jolpica'
       };
 
-      const push = (key, stage, tierKey, isoTime, label) => {
+      const push = (key, stage, tierKey, isoTime, label, durationMin) => {
         if (!isoTime || isoTime < from || isoTime > to) return;
         out.push({
           ...meta,
@@ -104,16 +106,20 @@ export async function fetchF1() {
           stage,
           tierKey,
           sessionKey: key,
+          season: Number(r.season),
+          round: Number(r.round),
+          durationMin,
           title: `${gp} · ${label}`,
           startTime: isoTime,
-          status: new Date(isoTime).getTime() < Date.now() ? 'completed' : 'upcoming'
+          // 状态由 normalize 根据「开始时间 + 时长」统一计算，这里不再抢答
+          status: 'upcoming'
         });
       };
 
-      for (const [field, label, key, tierKey] of SESSIONS) {
-        push(key, label, tierKey, sessionTime(r[field]), label);
+      for (const [field, label, key, tierKey, durationMin] of SESSIONS) {
+        push(key, label, tierKey, sessionTime(r[field]), label, durationMin);
       }
-      push('race', '正赛', 'international', sessionTime({ date: r.date, time: r.time }), '正赛');
+      push('race', '正赛', 'international', sessionTime({ date: r.date, time: r.time }), '正赛', RACE_MINUTES);
     }
   }
 
