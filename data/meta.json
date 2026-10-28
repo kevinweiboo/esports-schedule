@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-28T03:33:17.152Z",
-  "total": 105,
+  "generatedAt": "2026-10-28T11:57:41.553Z",
+  "total": 111,
   "byGame": {
-    "valorant": 1,
+    "valorant": 7,
     "f1": 40,
     "cs2": 18,
     "lol": 46
@@ -22,7 +22,7 @@
       "label": "瓦洛兰特 VCT",
       "ok": true,
       "degraded": false,
-      "count": 1,
+      "count": 7,
       "error": ""
     },
     {
