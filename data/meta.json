@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-02T00:08:16.621Z",
-  "total": 112,
+  "generatedAt": "2026-11-02T10:25:38.496Z",
+  "total": 111,
   "byGame": {
     "valorant": 10,
-    "cs2": 18,
-    "f1": 38,
+    "cs2": 19,
+    "f1": 36,
     "lol": 46
   },
   "sources": [
@@ -30,7 +30,7 @@
       "label": "CS2 S级/S+/Major",
       "ok": true,
       "degraded": false,
-      "count": 18,
+      "count": 19,
       "error": ""
     },
     {
@@ -38,7 +38,7 @@
       "label": "F1",
       "ok": true,
       "degraded": false,
-      "count": 38,
+      "count": 36,
       "error": ""
     }
   ]
