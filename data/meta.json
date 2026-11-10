@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-10T05:37:18.615Z",
-  "total": 106,
+  "generatedAt": "2026-11-10T14:07:23.306Z",
+  "total": 105,
   "byGame": {
     "valorant": 10,
     "cs2": 19,
-    "f1": 31,
-    "lol": 46
+    "lol": 46,
+    "f1": 30
   },
   "sources": [
     {
@@ -38,7 +38,7 @@
       "label": "F1",
       "ok": true,
       "degraded": false,
-      "count": 31,
+      "count": 30,
       "error": ""
     }
   ]
