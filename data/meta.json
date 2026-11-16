@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-16T10:30:08.323Z",
-  "total": 101,
+  "generatedAt": "2026-11-16T21:31:03.899Z",
+  "total": 100,
   "byGame": {
-    "valorant": 10,
     "cs2": 19,
-    "lol": 42,
+    "valorant": 10,
+    "lol": 41,
     "f1": 30
   },
   "sources": [
@@ -14,7 +14,7 @@
       "label": "英雄联盟 LPL/LCK/国际赛",
       "ok": true,
       "degraded": false,
-      "count": 42,
+      "count": 41,
       "error": ""
     },
     {
