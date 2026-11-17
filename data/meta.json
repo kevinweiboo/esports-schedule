@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-17T06:02:21.809Z",
-  "total": 99,
+  "generatedAt": "2026-11-17T18:02:23.330Z",
+  "total": 97,
   "byGame": {
-    "cs2": 19,
-    "lol": 41,
+    "cs2": 18,
+    "lol": 40,
     "f1": 30,
     "valorant": 9
   },
@@ -14,7 +14,7 @@
       "label": "英雄联盟 LPL/LCK/国际赛",
       "ok": true,
       "degraded": false,
-      "count": 41,
+      "count": 40,
       "error": ""
     },
     {
@@ -30,7 +30,7 @@
       "label": "CS2 S级/S+/Major",
       "ok": true,
       "degraded": false,
-      "count": 19,
+      "count": 18,
       "error": ""
     },
     {
