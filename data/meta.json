@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-23T01:19:34.709Z",
+  "generatedAt": "2026-11-23T11:39:08.762Z",
   "total": 87,
   "byGame": {
     "cs2": 18,
@@ -36,10 +36,9 @@
     {
       "key": "f1",
       "label": "F1",
-      "ok": true,
-      "degraded": false,
-      "count": 28,
-      "error": ""
+      "ok": false,
+      "count": 0,
+      "error": "This operation was aborted"
     }
   ]
 }
